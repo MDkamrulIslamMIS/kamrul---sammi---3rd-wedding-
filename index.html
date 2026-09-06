@@ -1,0 +1,3537 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamrul & Sammi — 3rd Wedding Anniversary</title>
+  <meta name="description" content="Join Kamrul Islam & Sammi Keye as they celebrate their 3rd Wedding Anniversary on 22 September 2026." />
+  <meta property="og:title" content="Kamrul & Sammi — 3rd Wedding Anniversary" />
+  <meta property="og:description" content="Join Kamrul Islam & Sammi Keye as they celebrate their 3rd Wedding Anniversary." />
+  <meta property="og:image" content="images/couple.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    /* =========================================================
+       LUXURY ROMANTIC THEME - KAMRUL & SAMMI ANNIVERSARY
+       ========================================================= */
+    :root {
+      --bg-dark: #120307;
+      --bg-wine: #24050d;
+      --bg-card: rgba(45, 10, 19, 0.75);
+      --bg-glass: rgba(60, 14, 27, 0.6);
+      --border-gold: rgba(226, 185, 111, 0.45);
+      --border-gold-strong: #d4af37;
+      --gold: #f3d489;
+      --gold-dark: #b8860b;
+      --rose: #ff4d79;
+      --rose-light: #ffd5df;
+      --cream: #fff9f0;
+      --cream-card: #fffdfa;
+      --text-main: #fceeed;
+      --text-muted: #d9b8be;
+      --text-dark: #3a151e;
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-script: 'Great Vibes', cursive;
+      --font-ornate: 'Cinzel Decorative', Georgia, serif;
+      --font-body: 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      overflow-x: hidden;
+      position: relative;
+      background-image: 
+        radial-gradient(circle at 50% 10%, rgba(138, 18, 48, 0.4) 0%, transparent 60%),
+        radial-gradient(circle at 10% 40%, rgba(88, 10, 30, 0.3) 0%, transparent 40%),
+        radial-gradient(circle at 90% 70%, rgba(118, 12, 42, 0.35) 0%, transparent 50%);
+      background-attachment: fixed;
+    }
+
+    /* Ambient Floating Particle Canvas */
+    #petals-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* =========================================================
+       NAVIGATION BAR & INTERACTIVE HOVER ANIMATIONS
+       ========================================================= */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 70px;
+      background: rgba(18, 3, 7, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.28);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.3px;
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap !important;
+      flex-shrink: 0;
+    }
+
+    .nav-brand svg {
+      width: 26px;
+      height: 26px;
+      fill: none;
+      stroke: var(--gold);
+      stroke-width: 2;
+      flex-shrink: 0;
+      transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.35s ease;
+    }
+
+    .nav-brand:hover {
+      color: #fff6da;
+      text-shadow: 0 0 16px rgba(243, 212, 137, 0.85);
+      transform: translateY(-1.5px);
+    }
+
+    .nav-brand:hover svg {
+      transform: rotate(360deg) scale(1.18);
+      filter: drop-shadow(0 0 8px rgba(243, 212, 137, 0.9)) drop-shadow(0 0 16px rgba(255, 77, 121, 0.6));
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      list-style: none;
+      margin: 0 8px;
+      padding: 0;
+      flex-shrink: 1;
+      min-width: 0;
+    }
+
+    .nav-links li {
+      position: relative;
+      white-space: nowrap !important;
+      flex-shrink: 0;
+    }
+
+    .nav-links a {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+      position: relative;
+      padding: 6px 10px;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      overflow: hidden;
+      text-decoration: none;
+      white-space: nowrap !important;
+      word-break: keep-all;
+    }
+
+    /* Ambient pill glow behind links on hover */
+    .nav-links a::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(212, 175, 55, 0.2) 0%, rgba(255, 77, 121, 0.08) 100%);
+      border-radius: 20px;
+      border: 1px solid rgba(212, 175, 55, 0.35);
+      opacity: 0;
+      transform: scale(0.85);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+      z-index: -1;
+    }
+
+    /* Animated expanding underline with glowing center */
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      left: 15%;
+      width: 70%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #f3d489, #ff4d79, #f3d489, transparent);
+      border-radius: 2px;
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      box-shadow: 0 0 8px rgba(243, 212, 137, 0.8);
+    }
+
+    .nav-links a:hover {
+      color: #fffaf0;
+      transform: translateY(-2.5px);
+      text-shadow: 0 0 12px rgba(243, 212, 137, 0.8), 0 0 20px rgba(255, 77, 121, 0.4);
+    }
+
+    .nav-links a:hover::before {
+      opacity: 1;
+      transform: scale(1);
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      transform: scaleX(1);
+    }
+
+    .nav-links a.active {
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    .nav-links a.active::before {
+      opacity: 0.6;
+      transform: scale(1);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      white-space: nowrap !important;
+    }
+
+    /* MUSIC BUTTON WITH HOVER ANIMATION & WAVE EQUALIZER */
+    .music-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(212, 175, 55, 0.14);
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      font-family: var(--font-body);
+      font-size: 0.84rem;
+      font-weight: 600;
+      padding: 6px 13px;
+      border-radius: 24px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap !important;
+      flex-shrink: 0;
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .music-note-icon {
+      display: inline-block;
+      font-size: 1rem;
+      transition: transform 0.4s ease;
+    }
+
+    .music-btn:hover {
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(255, 77, 121, 0.2));
+      border-color: #f3d489;
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.45), 0 0 30px rgba(255, 77, 121, 0.3);
+      color: #fff9e6;
+    }
+
+    .music-btn:hover .music-note-icon {
+      animation: noteWiggle 0.6s ease-in-out infinite alternate;
+    }
+
+    @keyframes noteWiggle {
+      0% { transform: rotate(-15deg) scale(1.1); }
+      100% { transform: rotate(15deg) scale(1.25); }
+    }
+
+    /* Animated equalizer wave bars inside music button */
+    .music-waves {
+      display: inline-flex;
+      align-items: flex-end;
+      gap: 2.5px;
+      height: 14px;
+      margin-left: 2px;
+    }
+
+    .wave-bar {
+      width: 3px;
+      height: 4px;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: height 0.2s ease, background 0.2s ease;
+    }
+
+    .music-btn.playing .wave-bar:nth-child(1) {
+      animation: eqDance 0.7s ease-in-out infinite alternate;
+    }
+    .music-btn.playing .wave-bar:nth-child(2) {
+      animation: eqDance 0.5s ease-in-out infinite alternate 0.15s;
+    }
+    .music-btn.playing .wave-bar:nth-child(3) {
+      animation: eqDance 0.8s ease-in-out infinite alternate 0.3s;
+    }
+
+    @keyframes eqDance {
+      0% { height: 3px; background: #d4af37; }
+      100% { height: 14px; background: #ff7597; }
+    }
+
+    .music-badge {
+      background: var(--border-gold-strong);
+      color: var(--bg-dark);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      letter-spacing: 0.5px;
+    }
+
+    .music-btn:hover .music-badge {
+      transform: scale(1.08);
+      box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+    }
+
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--gold);
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* Mobile Menu Drawer */
+    .mobile-menu {
+      position: fixed;
+      top: 68px;
+      left: 0;
+      width: 100%;
+      background: rgba(20, 4, 8, 0.98);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-gold);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      transform: translateY(-120%);
+      transition: transform 0.35s ease-in-out;
+      z-index: 99;
+    }
+
+    .mobile-menu.open {
+      transform: translateY(0);
+    }
+
+    .mobile-menu a {
+      font-size: 1.1rem;
+      color: var(--text-main);
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+    }
+
+    /* =========================================================
+       HERO OPENING SECTION
+       ========================================================= */
+    .hero-section {
+      min-height: 100vh;
+      padding-top: 90px;
+      padding-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .hero-container {
+      max-width: 1200px;
+      width: 92%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 40px;
+      align-items: center;
+      background: radial-gradient(circle at 70% 30%, rgba(85, 12, 32, 0.45) 0%, rgba(25, 4, 10, 0.65) 100%);
+      border: 1px solid var(--border-gold);
+      border-radius: 28px;
+      padding: 50px 48px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65), 0 0 40px rgba(226, 185, 111, 0.12);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-script {
+      font-family: var(--font-script);
+      font-size: clamp(3.2rem, 5vw, 4.5rem);
+      color: #ff8ca3;
+      text-shadow: 0 0 25px rgba(255, 77, 121, 0.5);
+      line-height: 1;
+      margin-bottom: -10px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1.15;
+      text-shadow: 0 4px 18px rgba(0, 0, 0, 0.6);
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-couple {
+      font-family: var(--font-display);
+      font-size: clamp(1.4rem, 2.4vw, 2rem);
+      color: #fff;
+      margin-bottom: 22px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .hero-couple .heart-pulse {
+      color: var(--rose);
+      display: inline-block;
+      animation: pulse 1.8s infinite;
+      font-size: 1.3rem;
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .badge-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(226, 185, 111, 0.3);
+      padding: 7px 16px;
+      border-radius: 20px;
+      font-size: 0.92rem;
+      color: var(--text-main);
+      backdrop-filter: blur(8px);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+      cursor: default;
+    }
+
+    .badge-item:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.12);
+      border-color: var(--gold);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45), 0 0 16px rgba(212, 175, 55, 0.35);
+      color: #fff;
+    }
+
+    .badge-item span.icon {
+      font-size: 1.1rem;
+    }
+
+    .hero-quote {
+      font-family: var(--font-script);
+      font-size: clamp(1.4rem, 2vw, 1.85rem);
+      color: #e8c49e;
+      margin-bottom: 28px;
+      opacity: 0.95;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #d4af37, #996515);
+      color: #1a0409;
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 1.05rem;
+      padding: 14px 34px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .hero-cta:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 12px 30px rgba(212, 175, 55, 0.6);
+      background: linear-gradient(135deg, #f5d77f, #b8860b);
+    }
+
+    .hero-photo-wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-photo-frame {
+      position: relative;
+      width: 100%;
+      max-width: 380px;
+      aspect-ratio: 4 / 5;
+      border-radius: 24px;
+      padding: 8px;
+      background: linear-gradient(135deg, rgba(226, 185, 111, 0.7), rgba(184, 134, 11, 0.2), rgba(255, 77, 121, 0.5));
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.25);
+    }
+
+    .hero-photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 18px;
+      display: block;
+      transition: transform 0.6s ease;
+    }
+
+    .hero-photo-frame:hover img {
+      transform: scale(1.03);
+    }
+
+    .hero-corner-rose {
+      position: absolute;
+      bottom: -15px;
+      right: -15px;
+      width: 65px;
+      height: 65px;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.6));
+      pointer-events: none;
+    }
+
+    /* =========================================================
+       SECTION TITLES
+       ========================================================= */
+    .section-wrap {
+      padding: 70px 0;
+      max-width: 1200px;
+      width: 92%;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-ornament {
+      color: var(--rose);
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .section-ornament::before,
+    .section-ornament::after {
+      content: '';
+      display: inline-block;
+      width: 45px;
+      height: 1px;
+      background: var(--border-gold);
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      color: var(--gold);
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    /* =========================================================
+       SPECIAL GUESTS SECTION
+       ========================================================= */
+    .guest-filter-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 35px;
+      flex-wrap: wrap;
+    }
+
+    .filter-tab {
+      background: rgba(45, 10, 19, 0.8);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      padding: 8px 22px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .filter-tab.active,
+    .filter-tab:hover {
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.25), rgba(184, 134, 11, 0.1));
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .guest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    /* Keyframe for diagonal shimmer sweep on hover */
+    @keyframes cardShimmerSweep {
+      0% { transform: translateX(-150%) rotate(25deg); }
+      100% { transform: translateX(250%) rotate(25deg); }
+    }
+
+    .guest-card {
+      background: linear-gradient(180deg, #fff7f9 0%, #fff1f4 100%);
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      border-radius: 18px;
+      padding: 24px 18px 20px 18px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      box-sizing: border-box;
+      z-index: 2;
+    }
+
+    .guest-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #e2b96f, #ff4d79, #e2b96f);
+      transition: height 0.3s ease;
+    }
+
+    /* Light sheen reflection layer */
+    .guest-card::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        60deg,
+        transparent 35%,
+        rgba(255, 255, 255, 0.55) 50%,
+        transparent 65%
+      );
+      transform: translateX(-150%) rotate(25deg);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .guest-card:hover {
+      transform: translateY(-9px) scale(1.025);
+      box-shadow: 0 20px 42px rgba(0, 0, 0, 0.6), 0 0 28px rgba(226, 185, 111, 0.45);
+      border-color: #d4af37;
+    }
+
+    .guest-card:hover::before {
+      height: 4px;
+      background: linear-gradient(90deg, #ff7597, #f3d489, #ff7597);
+    }
+
+    .guest-card:hover::after {
+      animation: cardShimmerSweep 0.85s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .guest-avatar {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 12px auto;
+      border-radius: 50%;
+      background: #fde2e8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #d13b63;
+      border: 1.5px solid rgba(209, 59, 99, 0.25);
+      transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+      flex-shrink: 0;
+    }
+
+    .guest-avatar svg {
+      width: 32px;
+      height: 32px;
+      fill: currentColor;
+      transition: transform 0.3s ease;
+    }
+
+    .guest-card:hover .guest-avatar {
+      transform: scale(1.12) rotate(4deg);
+      background: #fedbe4;
+      border-color: #e22d5a;
+      box-shadow: 0 0 18px rgba(226, 45, 90, 0.4);
+    }
+
+    .guest-name {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #2b0610;
+      margin-bottom: 6px;
+      transition: color 0.3s ease;
+      min-height: 2.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      line-height: 1.35;
+    }
+
+    .guest-card:hover .guest-name {
+      color: #8a0c28;
+    }
+
+    .guest-role-tag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #8c243e;
+      background: rgba(209, 59, 99, 0.1);
+      padding: 2px 10px;
+      border-radius: 12px;
+      margin-bottom: 6px;
+      height: 24px;
+      min-width: 80px;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .guest-card:hover .guest-role-tag {
+      background: rgba(209, 59, 99, 0.18);
+      color: #630c20;
+    }
+
+    .guest-card-heart {
+      color: var(--rose);
+      font-size: 0.88rem;
+      margin-bottom: 16px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease, color 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .guest-card:hover .guest-card-heart {
+      transform: scale(1.35) translateY(-3px);
+      color: #e22d5a;
+    }
+
+    .guest-card-btn {
+      width: 100%;
+      margin-top: auto;
+      background: #380713;
+      color: var(--gold);
+      border: 1px solid rgba(212, 175, 55, 0.35);
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .guest-card:hover .guest-card-btn {
+      background: linear-gradient(135deg, #d4af37, #996515);
+      border-color: #f3d489;
+      color: #120307;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(212, 175, 55, 0.5);
+    }
+
+    /* =========================================================
+       BENTO HIGHLIGHTS ROW (Food Menu, Photo Gallery, Journey)
+       Matching image.png
+       ========================================================= */
+    .bento-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 50px;
+    }
+
+    .bento-card {
+      background: linear-gradient(180deg, rgba(50, 10, 21, 0.75) 0%, rgba(26, 4, 10, 0.85) 100%);
+      border: 1px solid var(--border-gold);
+      border-radius: 20px;
+      padding: 26px 24px;
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .bento-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: var(--gold);
+    }
+
+    .bento-header svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--rose);
+      fill: none;
+      stroke-width: 2;
+    }
+
+    /* Bento Food Menu */
+    .bento-food-wrap {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .bento-food-img {
+      width: 85px;
+      height: 85px;
+      border-radius: 14px;
+      object-fit: cover;
+      object-position: center;
+      border: 1px solid var(--border-gold);
+    }
+
+    .bento-food-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .bento-food-list li {
+      font-size: 0.95rem;
+      color: #ffe6eb;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .bento-food-list li::before {
+      content: '✦';
+      color: var(--gold);
+      font-size: 0.75rem;
+    }
+
+    /* Bento Gallery Grid */
+    .bento-gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .bento-gallery-item {
+      width: 100%;
+      height: 80px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      cursor: pointer;
+    }
+
+    .bento-gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.4s ease;
+    }
+
+    .bento-gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    /* Bento Journey Timeline */
+    .bento-journey-list {
+      list-style: none;
+      position: relative;
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+
+    .bento-journey-list::before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: 7px;
+      bottom: 6px;
+      width: 2px;
+      background: rgba(212, 175, 55, 0.35);
+    }
+
+    .journey-step {
+      position: relative;
+      margin-bottom: 14px;
+    }
+
+    .journey-step::before {
+      content: '';
+      position: absolute;
+      left: -21px;
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 8px var(--gold);
+    }
+
+    .journey-year {
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--gold);
+      font-size: 0.95rem;
+    }
+
+    .journey-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .bento-btn {
+      width: 100%;
+      background: linear-gradient(180deg, #f5deb3 0%, #deb887 100%);
+      color: #2b0610;
+      border: 1px solid var(--gold);
+      font-family: var(--font-body);
+      font-size: 0.92rem;
+      font-weight: 700;
+      padding: 10px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-align: center;
+      display: block;
+    }
+
+    .bento-btn:hover {
+      background: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(212, 175, 55, 0.4);
+    }
+
+    /* =========================================================
+       PHOTO GALLERY SECTION & LIGHTBOX
+       ========================================================= */
+    .full-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-card {
+      position: relative;
+      border-radius: 18px;
+      overflow: hidden;
+      aspect-ratio: 4 / 5;
+      border: 1px solid var(--border-gold);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .gallery-card:hover img {
+      transform: scale(1.06);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 40%, rgba(20, 3, 8, 0.85) 100%);
+      display: flex;
+      align-items: flex-end;
+      padding: 18px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .gallery-card:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-overlay span {
+      color: var(--gold);
+      font-size: 0.95rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 2, 4, 0.94);
+      backdrop-filter: blur(12px);
+      z-index: 500;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .lightbox-modal.active {
+      display: flex;
+    }
+
+    .lightbox-content {
+      position: relative;
+      max-width: 900px;
+      width: 100%;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .lightbox-img {
+      max-width: 100%;
+      max-height: 75vh;
+      object-fit: contain;
+      border-radius: 16px;
+      border: 2px solid var(--border-gold);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.9);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: -45px;
+      right: 0;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .lightbox-nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(30, 5, 12, 0.7);
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lightbox-nav-btn:hover {
+      background: var(--border-gold-strong);
+      color: var(--bg-dark);
+    }
+
+    .lightbox-prev { left: -60px; }
+    .lightbox-next { right: -60px; }
+
+    /* =========================================================
+       50 LOVE MESSAGE CARDS FOR SAMMI
+       ========================================================= */
+    .love-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .love-search-input {
+      background: rgba(45, 10, 19, 0.7);
+      border: 1px solid var(--border-gold);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-family: var(--font-body);
+      font-size: 0.92rem;
+      outline: none;
+      width: 280px;
+    }
+
+    .love-search-input::placeholder {
+      color: #b58d97;
+    }
+
+    .love-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+      max-height: 720px;
+      overflow-y: auto;
+      padding-right: 8px;
+    }
+
+    .love-grid::-webkit-scrollbar {
+      width: 6px;
+    }
+    .love-grid::-webkit-scrollbar-thumb {
+      background: var(--border-gold);
+      border-radius: 4px;
+    }
+
+    .love-card {
+      background: linear-gradient(135deg, rgba(60, 12, 26, 0.7) 0%, rgba(35, 6, 14, 0.85) 100%);
+      border: 1px solid rgba(226, 185, 111, 0.35);
+      border-radius: 16px;
+      padding: 20px;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 140px;
+    }
+
+    .love-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--rose);
+      box-shadow: 0 10px 25px rgba(255, 77, 121, 0.18);
+    }
+
+    .love-card-num {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      font-size: 0.75rem;
+      color: var(--border-gold-strong);
+      font-family: var(--font-display);
+    }
+
+    .love-card-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--gold);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .love-card-preview {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .love-card-hint {
+      font-size: 0.75rem;
+      color: var(--rose-light);
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Love Message Modal */
+    .love-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(12, 2, 5, 0.88);
+      backdrop-filter: blur(10px);
+      z-index: 400;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .love-modal.active {
+      display: flex;
+    }
+
+    .love-modal-box {
+      background: radial-gradient(circle at center, #2e0813 0%, #170308 100%);
+      border: 1.5px solid var(--border-gold-strong);
+      border-radius: 24px;
+      padding: 38px 32px;
+      max-width: 550px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 35px rgba(255, 77, 121, 0.25);
+      position: relative;
+      animation: popIn 0.35s ease;
+    }
+
+    .love-modal-heart {
+      font-size: 2.8rem;
+      color: var(--rose);
+      animation: pulse 1.5s infinite;
+      margin-bottom: 10px;
+    }
+
+    .love-modal-title {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .love-modal-text {
+      font-size: 1.12rem;
+      line-height: 1.8;
+      color: #fff4f6;
+      margin-bottom: 24px;
+    }
+
+    .love-modal-close {
+      background: linear-gradient(135deg, #d4af37, #996515);
+      color: #1a0409;
+      border: none;
+      font-weight: 700;
+      padding: 10px 28px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+    }
+
+    /* =========================================================
+       EVENT HIGHLIGHTS (Cake cutting, Dinner, Photos, Memories)
+       ========================================================= */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .highlight-card {
+      background: rgba(45, 10, 19, 0.7);
+      border: 1px solid var(--border-gold);
+      border-radius: 18px;
+      padding: 24px 18px;
+      text-align: center;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--gold);
+    }
+
+    .highlight-icon {
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+    }
+
+    .highlight-name {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+
+    .highlight-time {
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--rose-light);
+      background: rgba(255, 77, 121, 0.15);
+      padding: 4px 14px;
+      border-radius: 14px;
+    }
+
+    /* =========================================================
+       PRINTED LUXURY INVITATION MODAL
+       (Exact reproduction of right side of image.png)
+       ========================================================= */
+    .invitation-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 2, 4, 0.9);
+      backdrop-filter: blur(14px);
+      z-index: 600;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow-y: auto;
+    }
+
+    .invitation-modal.active {
+      display: flex;
+    }
+
+    .invitation-card-printed {
+      background: #fffbf2;
+      color: var(--text-dark);
+      max-width: 500px;
+      width: 100%;
+      border-radius: 18px;
+      padding: 36px 32px;
+      position: relative;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.85), 0 0 40px rgba(212, 175, 55, 0.35);
+      border: 2px solid #d4af37;
+      text-align: center;
+      animation: modalFadeUp 0.4s ease;
+      overflow: hidden;
+    }
+
+    /* Luxury Golden Ornate Borders & Corners */
+    .invitation-inner-border {
+      border: 1px solid rgba(184, 134, 11, 0.4);
+      padding: 24px 18px;
+      border-radius: 12px;
+      position: relative;
+    }
+
+    /* Corner Roses Artwork */
+    .card-floral-top-left {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      width: 110px;
+      height: 110px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .card-floral-bottom-right {
+      position: absolute;
+      bottom: -10px;
+      right: -10px;
+      width: 115px;
+      height: 115px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .invitation-rings {
+      width: 46px;
+      height: 46px;
+      margin: 0 auto 10px auto;
+      color: #b8860b;
+    }
+
+    .invitation-special-tag {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: #b8860b;
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+    }
+
+    .invitation-guest-name {
+      font-family: var(--font-display);
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: #6d0a21;
+      margin-bottom: 8px;
+    }
+
+    .invitation-heart-sep {
+      color: #d13b63;
+      font-size: 1rem;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .invitation-heart-sep::before,
+    .invitation-heart-sep::after {
+      content: '';
+      display: inline-block;
+      width: 35px;
+      height: 1px;
+      background: #deb887;
+    }
+
+    .invitation-personal-msg {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #3b161f;
+      margin-bottom: 18px;
+      padding: 0 8px;
+      font-weight: 500;
+    }
+
+    .invitation-details-box {
+      border-top: 1px solid #deb887;
+      border-bottom: 1px solid #deb887;
+      padding: 14px 10px;
+      margin: 16px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: left;
+    }
+
+    .detail-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.98rem;
+    }
+
+    .detail-row .detail-icon {
+      font-size: 1.25rem;
+      line-height: 1;
+      min-width: 24px;
+    }
+
+    .detail-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #8a2139;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .detail-value {
+      font-weight: 600;
+      color: #2b0610;
+    }
+
+    .invitation-closing-msg {
+      font-size: 0.98rem;
+      line-height: 1.65;
+      color: #4f1d29;
+      margin: 14px 0;
+      font-style: italic;
+    }
+
+    .invitation-signature-label {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: #8a2139;
+      margin-top: 12px;
+    }
+
+    .invitation-couple-sign {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #6d0a21;
+      margin-top: 4px;
+    }
+
+    .invitation-modal-close-btn {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: #6d0a21;
+      color: #fff;
+      border: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 1rem;
+      cursor: pointer;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Welcome Mini Popup Before Card Opens */
+    .welcome-popup {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 3, 7, 0.85);
+      backdrop-filter: blur(10px);
+      z-index: 650;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .welcome-popup.active {
+      display: flex;
+    }
+
+    .welcome-popup-box {
+      background: radial-gradient(circle, #380a17 0%, #1c0309 100%);
+      border: 1.5px solid var(--border-gold);
+      border-radius: 20px;
+      padding: 30px 24px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 77, 121, 0.3);
+      animation: popIn 0.3s ease;
+    }
+
+    /* =========================================================
+       VENUE & LOCATION CARD STYLING & HOVER ANIMATION
+       ========================================================= */
+    .location-card-container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: radial-gradient(circle at 50% 20%, rgba(70, 14, 32, 0.85) 0%, rgba(20, 4, 9, 0.95) 100%);
+      border: 1.5px solid var(--border-gold);
+      border-radius: 28px;
+      padding: 45px 36px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 35px rgba(212, 175, 55, 0.18);
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.2);
+      text-align: center;
+    }
+
+    .location-card-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #d4af37, #ff4d79, #d4af37);
+    }
+
+    .location-card-container:hover {
+      transform: translateY(-8px);
+      border-color: #f3d489;
+      box-shadow: 0 25px 65px rgba(0, 0, 0, 0.85), 0 0 45px rgba(212, 175, 55, 0.35);
+    }
+
+    .location-pin-wrap {
+      width: 82px;
+      height: 82px;
+      margin: 0 auto 20px auto;
+      border-radius: 50%;
+      background: linear-gradient(135deg, rgba(226, 45, 90, 0.3), rgba(212, 175, 55, 0.25));
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      position: relative;
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+      transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .location-card-container:hover .location-pin-wrap {
+      transform: scale(1.18) rotate(-8deg);
+      box-shadow: 0 0 35px rgba(255, 77, 121, 0.6), 0 0 25px rgba(212, 175, 55, 0.8);
+    }
+
+    .location-pin-pulse {
+      position: absolute;
+      inset: -8px;
+      border-radius: 50%;
+      border: 1px dashed rgba(212, 175, 55, 0.65);
+      animation: spinPinDashed 12s linear infinite;
+    }
+
+    @keyframes spinPinDashed {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .location-place-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: #fff;
+      margin-bottom: 8px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .location-address {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+      transition: color 0.3s ease;
+    }
+
+    .location-card-container:hover .location-address {
+      color: #fff4d2;
+      text-shadow: 0 0 14px rgba(243, 212, 137, 0.7);
+    }
+
+    .location-address-bn {
+      font-size: 1.05rem;
+      color: var(--rose-light);
+      margin-bottom: 22px;
+    }
+
+    .location-info-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .location-pill {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      border-radius: 20px;
+      padding: 7px 18px;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .location-pill:hover {
+      background: rgba(212, 175, 55, 0.2);
+      border-color: var(--gold);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+    }
+
+    .location-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .location-btn-maps {
+      background: linear-gradient(135deg, #d4af37, #996515);
+      color: #120307;
+      font-weight: 700;
+      font-size: 0.98rem;
+      padding: 13px 30px;
+      border-radius: 28px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      box-shadow: 0 8px 22px rgba(212, 175, 55, 0.4);
+      text-decoration: none;
+    }
+
+    .location-btn-maps:hover {
+      transform: translateY(-3px) scale(1.04);
+      box-shadow: 0 14px 32px rgba(212, 175, 55, 0.65);
+      background: linear-gradient(135deg, #ffd978, #b8860b);
+      color: #000;
+    }
+
+    .location-btn-copy {
+      background: rgba(255, 77, 121, 0.15);
+      border: 1px solid rgba(255, 77, 121, 0.45);
+      color: var(--rose-light);
+      font-weight: 600;
+      font-size: 0.98rem;
+      padding: 13px 28px;
+      border-radius: 28px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .location-btn-copy:hover {
+      background: rgba(255, 77, 121, 0.3);
+      border-color: var(--rose);
+      color: #fff;
+      transform: translateY(-3px) scale(1.04);
+      box-shadow: 0 10px 25px rgba(255, 77, 121, 0.4);
+    }
+
+    /* Toast notification */
+    .toast-msg {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #1e050c;
+      border: 1px solid var(--gold);
+      color: #fff;
+      padding: 12px 26px;
+      border-radius: 25px;
+      font-size: 0.96rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 20px rgba(212,175,55,0.4);
+      z-index: 10000;
+      opacity: 0;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      pointer-events: none;
+    }
+
+    .toast-msg.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* Ambient Cursor Aura / Glow on Desktop */
+    .cursor-glow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(243, 212, 137, 0.12) 0%, rgba(255, 77, 121, 0.06) 45%, transparent 70%);
+      pointer-events: none;
+      z-index: 12;
+      mix-blend-mode: screen;
+      will-change: transform;
+      transition: opacity 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+      .cursor-glow { display: none !important; }
+    }
+
+    /* =========================================================
+       FOOTER
+       ========================================================= */
+    .site-footer {
+      border-top: 1px solid var(--border-gold);
+      background: rgba(14, 2, 5, 0.95);
+      padding: 45px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .footer-script {
+      font-family: var(--font-script);
+      font-size: 2.2rem;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .footer-names {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .footer-note {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      max-width: 500px;
+      margin: 0 auto 16px auto;
+    }
+
+    .footer-date {
+      font-size: 0.88rem;
+      color: var(--border-gold-strong);
+      letter-spacing: 1px;
+    }
+
+    /* =========================================================
+       ANIMATIONS
+       ========================================================= */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+
+    @keyframes popIn {
+      from { transform: scale(0.85); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes modalFadeUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Opening Welcome Screen Overlay */
+    .opening-welcome-screen {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at center, #2e0712 0%, #100205 100%);
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+      transition: opacity 0.8s ease, visibility 0.8s ease;
+    }
+
+    .opening-welcome-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .welcome-intro {
+      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+      color: var(--rose-light);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .welcome-couple-name {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .welcome-event-sub {
+      font-family: var(--font-display);
+      font-size: clamp(1.3rem, 3vw, 2rem);
+      color: #fff;
+      margin-bottom: 35px;
+    }
+
+    .welcome-open-btn {
+      background: linear-gradient(135deg, #d4af37, #996515);
+      color: #1a0409;
+      font-family: var(--font-body);
+      font-size: 1.15rem;
+      font-weight: 700;
+      padding: 16px 42px;
+      border-radius: 35px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4), 0 0 20px rgba(255, 77, 121, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .welcome-open-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 14px 40px rgba(212, 175, 55, 0.6), 0 0 30px rgba(255, 77, 121, 0.5);
+    }
+
+    /* =========================================================
+       RESPONSIVE DESIGN
+       ========================================================= */
+    @media (max-width: 992px) {
+      .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 40px 24px;
+      }
+      .hero-couple {
+        justify-content: center;
+      }
+      .hero-badges {
+        justify-content: center;
+      }
+      .hero-photo-wrap {
+        order: -1;
+      }
+      .hero-photo-frame {
+        max-width: 280px;
+      }
+      .bento-row {
+        grid-template-columns: 1fr;
+      }
+      .highlights-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1081px) and (max-width: 1260px) {
+      .navbar {
+        padding: 0 16px;
+      }
+      .nav-links {
+        gap: 3px;
+        margin: 0 4px;
+      }
+      .nav-links a {
+        font-size: 0.82rem;
+        padding: 5px 8px;
+      }
+      .nav-brand {
+        font-size: 1rem;
+      }
+      .music-btn {
+        padding: 5px 10px;
+        font-size: 0.78rem;
+      }
+    }
+
+    @media (max-width: 1080px) {
+      .navbar {
+        padding: 0 18px;
+      }
+      .nav-links {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section-wrap {
+        padding: 50px 0;
+      }
+      .highlights-grid {
+        grid-template-columns: 1fr;
+      }
+      .lightbox-prev { left: 10px; }
+      .lightbox-next { right: 10px; }
+      .invitation-card-printed {
+        padding: 26px 18px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- FLOATING HEARTS & ROSE PETALS CANVAS -->
+  <canvas id="petals-canvas"></canvas>
+
+  <!-- =========================================================
+       OPENING WELCOME OVERLAY SCREEN
+       ========================================================= -->
+  <div id="welcome-screen" class="opening-welcome-screen">
+    <div class="welcome-intro">
+      <span>Welcome to Our Special Day</span>
+      <span style="color: var(--rose);">❤️</span>
+    </div>
+    <h1 class="welcome-couple-name" id="welcome-names">Kamrul & Sammi</h1>
+    <h2 class="welcome-event-sub" id="welcome-event">Our 3rd Wedding Anniversary</h2>
+    <button id="open-invitation-btn" class="welcome-open-btn">
+      <span>💌</span>
+      <span>Open Invitation</span>
+    </button>
+  </div>
+
+  <!-- =========================================================
+       NAVIGATION BAR
+       ========================================================= */ -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-brand">
+      <svg viewBox="0 0 24 24">
+        <circle cx="9" cy="12" r="5"/>
+        <circle cx="15" cy="12" r="5"/>
+      </svg>
+      <span id="nav-brand-text">Our 3rd Anniversary</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#guests">Invitations</a></li>
+      <li><a href="#journey">Love Story</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#love-messages">Memories</a></li>
+      <li><a href="#highlights">Event</a></li>
+      <li><a href="#location">Location</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="music-toggle" class="music-btn" title="Toggle romantic background melody">
+        <span class="music-note-icon">🎵</span>
+        <span>Music</span>
+        <div class="music-waves" aria-hidden="true">
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+        </div>
+        <span id="music-state-badge" class="music-badge">OFF</span>
+      </button>
+      <button id="hamburger-btn" class="hamburger" aria-label="Toggle Navigation Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#hero" class="mobile-nav-link">Home</a>
+    <a href="#guests" class="mobile-nav-link">Invitations</a>
+    <a href="#journey" class="mobile-nav-link">Love Story</a>
+    <a href="#gallery" class="mobile-nav-link">Gallery</a>
+    <a href="#menu" class="mobile-nav-link">Menu</a>
+    <a href="#love-messages" class="mobile-nav-link">Memories</a>
+    <a href="#highlights" class="mobile-nav-link">Event</a>
+    <a href="#location" class="mobile-nav-link">Location</a>
+    <div style="padding-top: 10px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(212, 175, 55, 0.2); margin-top: 6px;">
+      <span style="color: var(--gold); font-weight: 600; font-size: 1rem;">🎵 Romantic Music</span>
+      <button id="mobile-music-toggle" class="music-btn" style="display: inline-flex;">
+        <span class="music-note-icon">🎵</span>
+        <span>Music</span>
+        <span id="mobile-music-state-badge" class="music-badge">OFF</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       HERO SECTION
+       ========================================================= -->
+  <section id="hero" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-script">Happy</div>
+        <h1 class="hero-title" id="hero-title-text">3rd Wedding Anniversary</h1>
+        
+        <div class="hero-couple">
+          <span id="hero-husband">Kamrul Islam</span>
+          <span class="heart-pulse">❤️</span>
+          <span id="hero-wife">Sammi Keye</span>
+        </div>
+
+        <div class="hero-badges">
+          <div class="badge-item">
+            <span class="icon">📅</span>
+            <span id="hero-date">22 September 2026</span>
+          </div>
+          <div class="badge-item">
+            <span class="icon">⏰</span>
+            <span id="hero-time">8:00 PM – 9:00 PM</span>
+          </div>
+          <div class="badge-item">
+            <span class="icon">📍</span>
+            <span id="hero-location">Uttar Badda, Satarkul Road</span>
+          </div>
+          <div class="badge-item">
+            <span class="icon">🎂</span>
+            <span id="hero-event">Cake Cutting & Dinner</span>
+          </div>
+        </div>
+
+        <p class="hero-quote" id="hero-quote-text">
+          "Thank you for being a part of our special day!"
+        </p>
+
+        <a href="#guests" class="hero-cta">
+          <span>💌</span>
+          <span>View Guest Invitations</span>
+        </a>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-frame">
+          <img id="hero-couple-img" src="images/couple.jpg" alt="Kamrul Islam and Sammi Keye Wedding Anniversary" loading="eager" />
+          <svg class="hero-corner-rose" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="30" fill="#e22d5a" opacity="0.9"/>
+            <circle cx="45" cy="45" r="18" fill="#ff7597"/>
+            <path d="M50 10 C60 30, 40 40, 50 50 C60 60, 40 70, 50 90" stroke="#f3d489" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SPECIAL GUESTS INVITATION SECTION
+       ========================================================= -->
+  <section id="guests" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">♥ Our Special Guests ♥</div>
+      <h2 class="section-title">সম্মানিত অতিথি তালিকা</h2>
+      <p class="section-subtitle">
+        আপনাদের ভালোবাসা ও উপস্থিতিতেই আমাদের আনন্দ পূর্ণ হবে। Click on any card to view the personalized invitation.
+      </p>
+    </div>
+
+    <!-- Category Filter Tabs -->
+    <div class="guest-filter-tabs">
+      <button class="filter-tab active" data-cat="all">All Guests (১৫)</button>
+      <button class="filter-tab" data-cat="Office Staff">Office Staff (৪)</button>
+      <button class="filter-tab" data-cat="Friends">Friends (৬)</button>
+      <button class="filter-tab" data-cat="Family">Family (৪)</button>
+    </div>
+
+    <!-- Guest Cards Grid -->
+    <div class="guest-grid" id="guest-cards-grid">
+      <!-- Injected via JavaScript -->
+    </div>
+  </section>
+
+  <!-- =========================================================
+       BENTO HIGHLIGHTS ROW (Menu, Gallery Preview, Journey)
+       ========================================================= -->
+  <section id="highlights-bento" class="section-wrap">
+    <div class="bento-row">
+      <!-- Special Food Menu Card -->
+      <div class="bento-card" id="menu">
+        <div>
+          <div class="bento-header">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
+              <path d="M7 2v20"/>
+              <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>
+            </svg>
+            <span>Special Food Menu</span>
+          </div>
+
+          <div class="bento-food-wrap">
+            <img id="bento-food-img-el" src="images/food.jpg" alt="Anniversary Feast" class="bento-food-img" onerror="this.src='images/photo02.jpg'" />
+            <ul class="bento-food-list" id="bento-food-list-container">
+              <!-- Dynamically populated from foodMenu array -->
+            </ul>
+          </div>
+        </div>
+
+        <a href="#food-full-section" class="bento-btn">View Full Menu Details</a>
+      </div>
+
+      <!-- Photo Gallery Card -->
+      <div class="bento-card" id="gallery-preview">
+        <div>
+          <div class="bento-header">
+            <svg viewBox="0 0 24 24">
+              <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+              <circle cx="9" cy="9" r="2"/>
+              <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+            </svg>
+            <span>Photo Gallery</span>
+          </div>
+
+          <div class="bento-gallery-grid" id="bento-gallery-thumbs">
+            <!-- 4 Thumbs populated via JS -->
+          </div>
+        </div>
+
+        <a href="#gallery" class="bento-btn">View Full Gallery</a>
+      </div>
+
+      <!-- Our Journey Card -->
+      <div class="bento-card" id="journey">
+        <div>
+          <div class="bento-header">
+            <svg viewBox="0 0 24 24">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+            </svg>
+            <span>Our Journey</span>
+          </div>
+
+          <ul class="bento-journey-list" id="bento-journey-timeline">
+            <!-- Populated via JS -->
+          </ul>
+        </div>
+
+        <a href="#journey-full-section" class="bento-btn">View Full Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PHOTO GALLERY FULL SECTION
+       ========================================================= -->
+  <section id="gallery" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">📸 Memories Captured 📸</div>
+      <h2 class="section-title">Our Memories</h2>
+      <p class="section-subtitle">আমাদের ভালোবাসার সুন্দর মুহূর্তগুলোর কিছু ঝলক। ক্লিক করে বড় আকারে দেখুন।</p>
+    </div>
+
+    <div class="full-gallery-grid" id="full-gallery-container">
+      <!-- Populated via JS -->
+    </div>
+  </section>
+
+  <!-- =========================================================
+       DETAILED FOOD MENU SECTION
+       ========================================================= -->
+  <section id="food-full-section" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">🍽️ Royal Feast 🍽️</div>
+      <h2 class="section-title">Special Food Menu</h2>
+      <p class="section-subtitle">আমাদের বিবাহবার্ষিকীর প্রীতিভোজে আপনার জন্য প্রস্তুত সুস্বাদু আয়োজন</p>
+    </div>
+
+    <div style="background: radial-gradient(circle at center, rgba(55,12,24,0.85), rgba(20,4,9,0.95)); border: 1px solid var(--border-gold); border-radius: 24px; padding: 40px 32px; max-width: 800px; margin: 0 auto; box-shadow: 0 15px 40px rgba(0,0,0,0.6);">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;" id="full-menu-grid">
+        <!-- Dynamically rendered -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       DETAILED JOURNEY TIMELINE
+       ========================================================= -->
+  <section id="journey-full-section" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">❤️ Together Forever ❤️</div>
+      <h2 class="section-title">আমাদের প্রেমের গল্প ও পথচলা</h2>
+      <p class="section-subtitle">১ বছরের গভীর ভালোবাসা ও প্রেম, পরিবারের সাথে কথা বলে তাদের দোয়া নিয়ে শুভ বিবাহ এবং আজ ৩য় বিবাহবার্ষিকীর গৌরবময় উদযাপন</p>
+    </div>
+
+    <div style="max-width: 750px; margin: 0 auto; position: relative; padding-left: 36px;" id="full-journey-timeline-container">
+      <!-- Injected from journeyTimeline array -->
+    </div>
+  </section>
+
+  <!-- =========================================================
+       50 LOVE MESSAGE CARDS FOR SAMMI
+       ========================================================= -->
+  <section id="love-messages" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">❤️ আমার Sammi-র জন্য আমার মনের কথা ❤️</div>
+      <h2 class="section-title">Fifty Words of Love</h2>
+      <p class="section-subtitle">আমার অর্ধাঙ্গিনী Sammi Keye-এর জন্য হৃদয়ের গভীর থেকে ৫০টি অনুভূতির বহিঃপ্রকাশ</p>
+    </div>
+
+    <div class="love-controls">
+      <input type="text" id="love-search" class="love-search-input" placeholder="🔍 অনুভূতির কথা খুঁজুন..." />
+      <span style="color: var(--gold); font-size: 0.95rem;" id="love-counter">মোট ৫০টি বার্তা</span>
+    </div>
+
+    <div class="love-grid" id="love-messages-grid">
+      <!-- 50 Cards Injected via JS -->
+    </div>
+  </section>
+
+  <!-- =========================================================
+       EVENT HIGHLIGHTS SCHEDULE
+       ========================================================= -->
+  <section id="highlights" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">⏰ Schedule of the Evening ⏰</div>
+      <h2 class="section-title">Event Highlights</h2>
+      <p class="section-subtitle">২২ সেপ্টেম্বর ২০২৬ সন্ধ্যার বিশেষ মুহূর্তগুলোর সময়সূচী</p>
+    </div>
+
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon">🎂</div>
+        <h3 class="highlight-name">Cake Cutting</h3>
+        <span class="highlight-time">8:00 PM</span>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🍽️</div>
+        <h3 class="highlight-name">Dinner Feast</h3>
+        <span class="highlight-time">8:15 PM</span>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">📸</div>
+        <h3 class="highlight-name">Photo Session</h3>
+        <span class="highlight-time">8:30 PM</span>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">❤️</div>
+        <h3 class="highlight-name">Memories & Chit-Chat</h3>
+        <span class="highlight-time">9:00 PM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       VENUE & LOCATION SECTION (UTTAR BADDA, SATARKUL ROAD)
+       ========================================================= -->
+  <section id="location" class="section-wrap">
+    <div class="section-header">
+      <div class="section-ornament">📍 Our Location 📍</div>
+      <h2 class="section-title">অনুষ্ঠানস্থল ও দিকনির্দেশনা</h2>
+      <p class="section-subtitle">আমাদের বিবাহবার্ষিকীর ঘরোয়া প্রীতি আয়োজনে আপনাদের সাদর আমন্ত্রণ</p>
+    </div>
+
+    <div class="location-card-container">
+      <div class="location-pin-wrap">
+        <div class="location-pin-pulse"></div>
+        <span>📍</span>
+      </div>
+
+      <h3 class="location-place-title">Our Sweet Home (আমাদের নীড়)</h3>
+      <div class="location-address" id="loc-display-address">Uttar Badda, Satarkul Road, Dhaka</div>
+      <p class="location-address-bn">উত্তর বাড্ডা, সাঁতারকুল রোড, ঢাকা — ১২১২</p>
+
+      <div class="location-info-pills">
+        <div class="location-pill">
+          <span>📅</span>
+          <span>২২ সেপ্টেম্বর ২০২৬ (মঙ্গলবার)</span>
+        </div>
+        <div class="location-pill">
+          <span>⏰</span>
+          <span>সন্ধ্যা ৮:০০ টা — রাত ৯:০০ টা</span>
+        </div>
+        <div class="location-pill">
+          <span>🗺️</span>
+          <span>সাঁতারকুল মেইন রোড সংলগ্ন</span>
+        </div>
+        <div class="location-pill">
+          <span>🎂</span>
+          <span>কেক কাটা ও নৈশভোজ</span>
+        </div>
+      </div>
+
+      <p style="color: var(--text-muted); font-size: 0.95rem; max-width: 580px; margin: 0 auto 24px auto; line-height: 1.6;">
+        আপনার আন্তরিক উপস্থিতি ও দোয়া আমাদের এই ভালোবাসার মুহূর্তটিকে আরও বিশেষ ও স্মরণীয় করে তুলবে। লোকেশন পেতে বা দিকনির্দেশনা দেখতে নিচের বাটন ব্যবহার করতে পারেন।
+      </p>
+
+      <div class="location-actions">
+        <a href="https://www.google.com/maps/search/?api=1&query=Uttar+Badda+Satarkul+Road+Dhaka" target="_blank" rel="noopener noreferrer" class="location-btn-maps">
+          <span>🗺️ Open in Google Maps</span>
+        </a>
+        <button id="copy-address-btn" class="location-btn-copy" onclick="copyAddressToClipboard()">
+          <span>📋 Copy Address</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast-msg" class="toast-msg">
+    <span>✨</span>
+    <span id="toast-text">ঠিকানা ক্লিপবোর্ডে কপি করা হয়েছে!</span>
+  </div>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="footer-script">With Love ❤️</div>
+    <div class="footer-names">Kamrul Islam & Sammi Keye</div>
+    <p class="footer-note">
+      Thank you for being a part of our beautiful journey and showering us with your warmth, blessings, and prayers.
+    </p>
+    <div class="footer-date">22 SEPTEMBER 2026 • UTTAR BADDA, SATARKUL ROAD, DHAKA</div>
+  </footer>
+
+  <!-- =========================================================
+       INDIVIDUAL LUXURY PRINTED INVITATION CARD MODAL
+       Matching right side of image.png exactly
+       ========================================================= -->
+  <div id="invitation-modal" class="invitation-modal">
+    <div class="invitation-card-printed">
+      <button class="invitation-modal-close-btn" id="modal-close-btn" title="Close">✕</button>
+      
+      <!-- Ornate Corner Floral Roses (SVG) -->
+      <svg class="card-floral-top-left" viewBox="0 0 100 100">
+        <circle cx="28" cy="28" r="22" fill="#d82555" />
+        <circle cx="24" cy="24" r="14" fill="#f06188" />
+        <circle cx="56" cy="22" r="15" fill="#d82555" />
+        <circle cx="22" cy="56" r="15" fill="#d82555" />
+        <path d="M 0 0 C 40 10, 80 0, 95 35" stroke="#d4af37" stroke-width="2" fill="none" />
+        <path d="M 0 0 C 10 40, 0 80, 35 95" stroke="#d4af37" stroke-width="2" fill="none" />
+      </svg>
+
+      <svg class="card-floral-bottom-right" viewBox="0 0 100 100">
+        <circle cx="72" cy="72" r="22" fill="#d82555" />
+        <circle cx="76" cy="76" r="14" fill="#f06188" />
+        <circle cx="44" cy="78" r="15" fill="#d82555" />
+        <circle cx="78" cy="44" r="15" fill="#d82555" />
+        <path d="M 100 100 C 60 90, 20 100, 5 65" stroke="#d4af37" stroke-width="2" fill="none" />
+        <path d="M 100 100 C 90 60, 100 20, 65 5" stroke="#d4af37" stroke-width="2" fill="none" />
+      </svg>
+
+      <div class="invitation-inner-border">
+        <!-- Intertwined Rings -->
+        <svg class="invitation-rings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="9" cy="12" r="5"/>
+          <circle cx="15" cy="12" r="5"/>
+        </svg>
+
+        <div class="invitation-special-tag">You are Special</div>
+        <h3 class="invitation-guest-name" id="inv-modal-guest-name">প্রিয় অতিথি</h3>
+        
+        <div class="invitation-heart-sep">♥</div>
+
+        <p class="invitation-personal-msg" id="inv-modal-personal-msg">
+          আমাদের এই বিবাহবার্ষিকী উপলক্ষে আপনাকে আন্তরিক আমন্ত্রণ জানাচ্ছি। আপনার উপস্থিতি আমাদের এই বিশেষ দিনটিকে আরও আনন্দময় ও স্মরণীয় করে তুলবে।
+        </p>
+
+        <div class="invitation-heart-sep">♥</div>
+
+        <!-- Event Details -->
+        <div class="invitation-details-box">
+          <div class="detail-row">
+            <span class="detail-icon">📅</span>
+            <div>
+              <div class="detail-title">তারিখ</div>
+              <div class="detail-value" id="inv-modal-date">22 September 2026</div>
+            </div>
+          </div>
+          <div class="detail-row">
+            <span class="detail-icon">⏰</span>
+            <div>
+              <div class="detail-title">সময়</div>
+              <div class="detail-value" id="inv-modal-time">8:00 PM – 9:00 PM</div>
+            </div>
+          </div>
+          <div class="detail-row">
+            <span class="detail-icon">🎂</span>
+            <div>
+              <div class="detail-title">অনুষ্ঠান</div>
+              <div class="detail-value" id="inv-modal-program">Cake Cutting & Dinner</div>
+            </div>
+          </div>
+          <div class="detail-row">
+            <span class="detail-icon">📍</span>
+            <div>
+              <div class="detail-title">স্থান</div>
+              <div class="detail-value" id="inv-modal-location">Our Sweet Home</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="invitation-closing-msg" id="inv-modal-category-note">
+          আপনার উপস্থিতি ও দোয়া আমাদের এই বিশেষ দিনটিকে আরও আনন্দময় ও স্মরণীয় করে তুলবে।
+        </p>
+
+        <div class="invitation-heart-sep">♥</div>
+
+        <div class="invitation-signature-label">With Love,</div>
+        <div class="invitation-couple-sign">Kamrul Islam ❤️ Sammi Keye</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       WELCOME PREVIEW POPUP (BEFORE LUXURY CARD)
+       ========================================================= -->
+  <div id="welcome-popup" class="welcome-popup">
+    <div class="welcome-popup-box">
+      <div style="font-size: 2.2rem; color: var(--rose); margin-bottom: 10px;">❤️</div>
+      <h3 style="font-family: var(--font-display); font-size: 1.45rem; color: var(--gold); margin-bottom: 8px;" id="welcome-popup-name">Welcome</h3>
+      <p style="font-size: 1.05rem; line-height: 1.6; color: #fceeed;">
+        আপনার জন্য আমাদের<br>ভালোবাসার ছোট্ট আমন্ত্রণ। 🌹
+      </p>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       PHOTO GALLERY LIGHTBOX
+       ========================================================= -->
+  <div id="lightbox-modal" class="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close-btn">✕</button>
+      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev-btn">‹</button>
+      <img id="lightbox-img" class="lightbox-img" src="" alt="Anniversary Photo Preview" />
+      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next-btn">›</button>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       LOVE MESSAGE MODAL
+       ========================================================= -->
+  <div id="love-modal" class="love-modal">
+    <div class="love-modal-box">
+      <div class="love-modal-heart">❤️</div>
+      <h3 class="love-modal-title" id="love-modal-title">আমার ভালোবাসা</h3>
+      <p class="love-modal-text" id="love-modal-text">মনের কথা...</p>
+      <button class="love-modal-close" id="love-modal-close-btn">হৃদয়ে রাখলাম ❤️</button>
+    </div>
+  </div>
+
+
+
+  <!-- =========================================================
+       JAVASCRIPT LOGIC & EASY EDIT CONFIGURATION
+       ========================================================= -->
+  <script>
+    /* ==========================================================================
+       =========================== EASY EDIT SECTION ============================
+       ==========================================================================
+       সহজে তথ্য পরিবর্তন করার জন্য নিচের অংশটি এডিট করুন।
+       পরের বছর শুধুমাত্র বছর, তারিখ, অতিথির নাম বা ছবি পরিবর্তন করলেই পুরো ওয়েবসাইট
+       স্বয়ংক্রিয়ভাবে আপডেট হয়ে যাবে।
+       ========================================================================== */
+
+    const ANNIVERSARY_CONFIG = {
+      husbandName: "Kamrul Islam",
+      wifeName: "Sammi Keye",
+      anniversaryOrdinal: "3rd",             // যেমন: 3rd, 4th, 5th
+      anniversaryTitle: "3rd Wedding Anniversary",
+      eventDate: "22 September 2026",
+      eventTime: "8:00 PM – 9:00 PM",
+      eventProgram: "Cake Cutting & Dinner",
+      eventLocation: "Uttar Badda, Satarkul Road, Dhaka",
+      coupleMainPhoto: "images/couple.jpg",
+      foodPhoto: "images/food.jpg",
+      musicUrl: "music.mp3" // Romantic wedding acoustic piano & cello melody (Canon in D)
+    };
+
+    // Default Images Backup
+    const DEFAULT_IMAGES = {
+      couple: "images/couple.jpg",
+      food: "images/food.jpg",
+      gallery: [
+        "images/photo01.jpg",
+        "images/photo02.jpg",
+        "images/photo03.jpg",
+        "images/photo04.jpg",
+        "images/photo05.jpg",
+        "images/photo06.jpg"
+      ]
+    };
+
+    /* --------------------------------------------------------------------------
+       ১. বিশেষ অতিথি তালিকা (SPECIAL GUESTS LIST)
+       - প্রতি অতিথির জন্য রয়েছে সম্পূর্ণ আলাদা এবং আন্তরিক বাংলা বার্তা।
+       - নতুন অতিথি যুক্ত করতে নিচের মতো আরেকটি অবজেক্ট যোগ করুন।
+       -------------------------------------------------------------------------- */
+    const guests = [
+      // --- OFFICE STAFF ---
+      {
+        id: "guest01",
+        name: "Md. Abu Bakkar",
+        category: "Office Staff",
+        message: "শ্রদ্ধেয় আবু বক্কর ভাই, কর্মক্ষেত্রে আপনার অনুপ্রেরণা ও স্নেহ সবসময়ই আমার পথচলাকে সহজ করেছে। আমাদের দাম্পত্য জীবনের ৩য় বর্ষপূর্তির এই আনন্দের মুহূর্তে আপনার আন্তরিক উপস্থিতি আমাদের জন্য অত্যন্ত সম্মানের ও আনন্দের হবে।"
+      },
+      {
+        id: "guest02",
+        name: "Md. Shohanur Rahman",
+        category: "Office Staff",
+        message: "প্রিয় সোহানুর ভাই, অফিসের ব্যস্ততার মাঝেও আপনার আন্তরিক বন্ধুত্ব ও সহযোগিতা সবসময় মনে রাখার মতো। আমাদের ৩য় বিবাহবার্ষিকীর এই ঘরোয়া আয়োজনে আপনাকে কাছে পেয়ে আমাদের আনন্দ আরও বহুগুণ বেড়ে যাবে।"
+      },
+      {
+        id: "guest03",
+        name: "Md. Arif",
+        category: "Office Staff",
+        message: "প্রিয় আরিফ ভাই, কর্মক্ষেত্রের প্রতিটি পদক্ষেপে আপনার ইতিবাচক মনোভাব ও ভালোবাসা আমাদের মুগ্ধ করে। আমাদের এই বিশেষ উদযাপনে আপনার সান্নিধ্য ও আন্তরিক দোয়া আমরা গভীরভাবে প্রত্যাশা করি।"
+      },
+      {
+        id: "guest04",
+        name: "Md. Rubel",
+        category: "Office Staff",
+        message: "প্রিয় রুবেল ভাই, আপনার অমায়িক ব্যবহার ও আন্তরিক সহমর্মিতা আমাকে সবসময় প্রেরণা দেয়। আমাদের ৩য় বিবাহবার্ষিকীর কেক কাটা ও নৈশভোজে আপনার উপস্থিতি আমাদের আয়োজনকে সার্থক করে তুলবে।"
+      },
+
+      // --- FRIENDS ---
+      {
+        id: "guest05",
+        name: "Julfiker Jim",
+        category: "Friends",
+        message: "দোস্ত জুলফিকার জিম, জীবনের সবচেয়ে সুন্দর স্মৃতিগুলোর সঙ্গে তুই জড়িয়ে আছিস। আমাদের দাম্পত্যের ৩ বছর পূর্ণ হওয়ার এই বিশেষ দিনে তুই উপস্থিত না থাকলে আমাদের আড্ডা আর আনন্দ কখনোই পূর্ণ হবে না! অবশ্যই চলে আসবি।"
+      },
+      {
+        id: "guest06",
+        name: "Mst. Lucky",
+        category: "Friends",
+        message: "প্রিয় লাকী, তোমার মতো একজন অকৃত্রিম বন্ধু ও শুভাকাঙ্ক্ষী পাওয়া আমাদের জীবনের অন্যতম সেরা উপহার। আমাদের ৩য় বিবাহবার্ষিকীর আনন্দঘন সন্ধ্যায় তোমার আন্তরিক উপস্থিতি ও শুভেচ্ছা একান্ত কাম্য।"
+      },
+      {
+        id: "guest07",
+        name: "Md. Uzzal",
+        category: "Friends",
+        message: "উজ্জ্বল দোস্ত, হাসি-আনন্দ আর স্মৃতিতে ভরপুর আমাদের এই পথচলা। কামরুল ও সাম্মির এই বিশেষ বর্ষপূর্তির আয়োজনে তুই পাশে থাকলে সন্ধ্যাটা অনেক বেশি প্রাণবন্ত হয়ে উঠবে। মন থেকে তোকে নিমন্ত্রণ জানাচ্ছি।"
+      },
+      {
+        id: "guest08",
+        name: "Md Hasan",
+        category: "Friends",
+        message: "হাসান বন্ধু, প্রতিটি স্মরণীয় মুহূর্তে তোকে পাশে পাওয়া আমাদের আনন্দের মাত্রা দ্বিগুণ করে দেয়। আমাদের ৩য় বিবাহবার্ষিকীর বিশেষ কেক কাটা ও ডিনারে তোকে নিয়ে দারুণ এক সন্ধ্যা উপভোগ করার অপেক্ষায় রইলাম।"
+      },
+      {
+        id: "guest09",
+        name: "Md. Nibir",
+        category: "Friends",
+        message: "প্রিয় নিবিড়, বন্ধুত্বের উষ্ণতা আর আড্ডার মুখরতায় তুই সবসময় অনন্য। আমাদের বিয়ের ৩ বছর পূর্তির এই সুন্দর দিনটিতে তোর স্নেহময় উপস্থিতি ও আন্তরিক শুভকামনা আমাদের জন্য অনেক মূল্যবান।"
+      },
+      {
+        id: "guest10",
+        name: "Md. Hridoy",
+        category: "Friends",
+        message: "হৃদয় দোস্ত, তোর নামের মতোই তোর মনটাও ভালোবাসায় ভরা। আমাদের জীবনের এই খুশির মুহূর্তটাতে তোর উপস্থিতি ছাড়া আমাদের কোনো উৎসবই জমে ওঠে না। ২২ সেপ্টেম্বর সন্ধ্যায় তোর জন্য অপেক্ষা থাকবে।"
+      },
+
+      // --- FAMILY ---
+      {
+        id: "guest11",
+        name: "Shadiya Babi",
+        category: "Family",
+        message: "শ্রদ্ধেয়া শাদিয়া ভাবি, আপনার মাতৃসুলভ স্নেহ, পরম যত্ন আর দোয়া আমাদের পরিবারকে সবসময় আলোকিত করে রেখেছে। আমাদের ৩য় বিবাহবার্ষিকীর এই মধুর আয়োজনে আপনার উপস্থিতি ও আশীর্বাদ আমাদের জন্য পরম পাওয়া।"
+      },
+      {
+        id: "guest12",
+        name: "Md. Shomon",
+        category: "Family",
+        message: "প্রিয় শমন, পরিবারের প্রতিটি শুভ মুহূর্তে তোমার পাশে থাকা আমাদের শক্তি ও ভরসা জোগায়। আমাদের দাম্পত্য জীবনের ৩ বছর পূর্তিতে তোমার সাথে আনন্দ ভাগাভাগি করার জন্য আমরা আন্তরিকভাবে প্রতীক্ষায় আছি।"
+      },
+      {
+        id: "guest13",
+        name: "Md. Alif",
+        category: "Family",
+        message: "স্নেহের আলিফ, পরিবারের আনন্দ ও প্রাণচাঞ্চল্যের এক উজ্জ্বল উৎস তুমি। আমাদের ৩য় বিবাহবার্ষিকীর কেক কাটা ও নৈশভোজে তোমার ভালোবাসাময় উপস্থিতি আমাদের অনুষ্ঠানকে আরও বর্ণিল করে তুলবে।"
+      },
+      {
+        id: "guest14",
+        name: "Sintiya Babi",
+        category: "Family",
+        message: "শ্রদ্ধেয়া সিনতিয়া ভাবি, আপনার আন্তরিক ভালোবাসা, মিষ্টতা ও পারিবারিক বন্ধন আমাদের অনুপ্রেরণা। আমাদের ৩য় বিবাহবার্ষিকীর এই বিশেষ দিনে আপনার সস্নেহ উপস্থিতি ও দোয়া আমাদের জীবনকে আরও সমৃদ্ধ করবে।"
+      }
+    ];
+
+    /* --------------------------------------------------------------------------
+       ২. খাবারের মেনু তালিকা (FOOD MENU)
+       -------------------------------------------------------------------------- */
+    const foodMenu = [
+      "বাসমতি পোলাও",
+      "চিকেন রোস্ট",
+      "চিকেন কোরমা",
+      "ডিমের কোরমা",
+      "১০ রকম ভর্তার",
+      "৫ রকম পিঠা",
+      "সালাদ",
+      "দই",
+      "সফট ড্রিংকস"
+    ];
+
+    /* --------------------------------------------------------------------------
+       ৩. ফটো গ্যালারি ইমেজ (GALLERY IMAGES)
+       -------------------------------------------------------------------------- */
+    let galleryImages = [
+      "images/photo01.jpg",
+      "images/photo02.jpg",
+      "images/photo03.jpg",
+      "images/photo04.jpg",
+      "images/photo05.jpg",
+      "images/photo06.jpg"
+    ];
+
+    /* --------------------------------------------------------------------------
+       ৪. আমাদের পথচলা টাইমলাইন (OUR JOURNEY TIMELINE)
+       - ১ বছরের গভীর প্রেম, এরপর পরিবারের সাথে কথা বলে দোয়া নিয়ে শুভ বিবাহ
+       -------------------------------------------------------------------------- */
+    const journeyTimeline = [
+      {
+        year: "2022",
+        title: "১ বছরের মিষ্টি প্রেম ও ভালোবাসা ❤️",
+        desc: "আমাদের ভালোবাসার সোনালী সূচনা। ১ বছর গভীর ভালোবাসায় পরস্পরের মনকে জানা, বোঝা ও সারাজীবন একসাথে থাকার অঙ্গীকার।"
+      },
+      {
+        year: "2023",
+        title: "পরিবারের সম্মতিতে শুভ বিবাহ 💍",
+        desc: "১ বছর প্রেমের পর উভয় পরিবারের সাথে কথা বলে তাদের দোয়া, ভালোবাসা ও আনন্দের সম্মতিতে আমাদের চার হাত এক হওয়া।"
+      },
+      {
+        year: "2024",
+        title: "দাম্পত্যের ১ম বর্ষপূর্তি ও মধুর স্মৃতি ✨",
+        desc: "সংসার জীবনের প্রথম বছর, এক ছাদের নিচে একে অপরকে আরো গভীরভাবে ভালোবাসা, মায়া ও যত্নে আগলে রাখার মধুর স্মৃতি।"
+      },
+      {
+        year: "2025",
+        title: "২য় বর্ষপূর্তি ও অটুট দাম্পত্য বন্ধন 🌸",
+        desc: "জীবনের সুখ-দুঃখ ও প্রতিটি মুহূর্তে পাশাপাশি থেকে আরো মজবুত, বিশ্বাসী ও নিবিড় হয়ে ওঠা আমাদের ভালোবাসার বন্ধন।"
+      },
+      {
+        year: "2026",
+        title: "আজ ৩য় বিবাহবার্ষিকী উদযাপন 🥂",
+        desc: "১ বছরের প্রেম আর ৩ বছরের পবিত্র দাম্পত্য—মোট ৪ বছরের অকৃত্রিম ভালোবাসা ও কৃতজ্ঞতায় ভরা আমাদের মহিমান্বিত উৎসব!"
+      }
+    ];
+
+    /* --------------------------------------------------------------------------
+       ৫. সাম্মির জন্য মনের কথা (৫০টি ভালোবাসা বার্তা - ৫০ LOVE MESSAGES)
+       -------------------------------------------------------------------------- */
+    const loveMessages = [
+      { title: "১ বছরের প্রেম ও আমাদের বিয়ে", text: "সাম্মি, সেই ১ বছর তোমায় মনপ্রাণ দিয়ে ভালোবাসা, এরপর দুই পরিবারের সাথে কথা বলে তাদের দোয়া নিয়ে তোমায় বিয়ে করা—আমার জীবনের শ্রেষ্ঠ ও পবিত্রতম প্রাপ্তি।" },
+      { title: "আমার শ্রেষ্ঠ পাওয়া", text: "সাম্মি, সৃষ্টিকর্তার কাছে হাজারো শুকরিয়া যে তিনি আমাকে তোমার মতো একজন মমতাময়ী জীবনসঙ্গী উপহার দিয়েছেন।" },
+      { title: "তোমার হাসির মুগ্ধতা", text: "তোমার মিষ্টি একটি হাসি আমার সারাদিনের ক্লান্তি আর বিষাদ এক নিমেষেই মুছে দিতে পারে।" },
+      { title: "তিন বছরের উপহার", text: "গত তিনটি বছর কীভাবে কেটে গেল টেরই পাইনি, শুধু অনুভব করেছি প্রতিটা দিন তোমায় আরও বেশি ভালোবেসেছি।" },
+      { title: "আমার প্রশান্তি", text: "পৃথিবীর সবচেয়ে নিরাপদ ও শান্তির জায়গা হচ্ছে তোমার ভালোবাসার ছায়া।" },
+      { title: "অকৃত্রিম সঙ্গ", text: "জীবনের প্রতিটি কঠিন মুহূর্তে তুমি যেভাবে নিশ্চুপে আমার হাত শক্ত করে ধরে রেখেছো, তার ঋণ শোধ করার নয়।" },
+      { title: "আমার জীবনের আলো", text: "তুমি আসার পর থেকেই আমার সাধারণ জীবনটা এক অপরূপ রূপকথায় রূপ নিয়েছে।" },
+      { title: "তোমার প্রতি কৃতজ্ঞতা", text: "আমার ভুলগুলোকে ক্ষমার চাদরে ঢেকে দিয়ে আমাকে একজন ভালো মানুষ হয়ে ওঠার অনুপ্রেরণা দিয়েছো তুমি।" },
+      { title: "আমাদের ছোট্ট সংসার", text: "আমাদের এই ছোট্ট বাড়িটাকে মায়া, মমতা আর ভালোবাসা দিয়ে সত্যিকারের স্বর্গ বানিয়েছো তুমি।" },
+      { title: "তোমার চোখের ভাষা", text: "তোমার চোখের দিকে তাকালে আমি নিজের জন্য অপার এক ভালোবাসা ও নির্ভরতা দেখতে পাই।" },
+      { title: "আমার স্বপ্নচারিণী", text: "আমার সব বড় বড় স্বপ্নের মূলে রয়েছে তোমার নিঃস্বার্থ সমর্থন আর প্রেরণা।" },
+      { title: "একত্রে পথচলা", text: "জীবনের শেষ নিঃশ্বাস পর্যন্ত তোমার হাত ধরে এভাবেই ভালোবেসে এগিয়ে যেতে চাই।" },
+      { title: "তোমার রান্নার ঘ্রাণ", text: "তোমার হাতের রান্নায় শুধু স্বাদ থাকে না, থাকে হৃদয়ের অসীম মমতার পরশ।" },
+      { title: "তুমি আমার শক্তি", text: "যখনই আমি ক্লান্ত হয়ে পড়ি, তোমার মিষ্টি সান্ত্বনা আমাকে নতুন করে লড়াই করার শক্তি জোগায়।" },
+      { title: "মায়াবী অনুভূতি", text: "আজও যখন তোমার দিকে প্রথম দেখার মতো তাকাই, বুকের ভেতর ঠিক একই রকম শিহরণ জাগে।" },
+      { title: "তুমি আমার অর্ধাঙ্গিনী", text: "তুমি শুধু আমার স্ত্রী নও, তুমি আমার সবচেয়ে ভালো বন্ধু ও বিশ্বস্ত শুভাকাঙ্ক্ষী।" },
+      { title: "আনন্দের উৎসব", text: "তুমি পাশে থাকা মানেই প্রতিদিন আমার জীবনে এক একটা নতুন আনন্দের উৎসব।" },
+      { title: "তোমার আত্মত্যাগ", text: "আমার খুশির জন্য তুমি যে ছোট ছোট আত্মত্যাগ করো, তা আমার হৃদয়ে পরম সম্মানের আসনে আঁকা।" },
+      { title: "আজীবন তোমার পাশে", text: "সুখে-দুঃখে, হাসিতে-কান্নায় চিরকাল তোমার ঢাল হয়ে পাশে থাকবো আমি।" },
+      { title: "প্রেমের সুর", text: "তোমার কণ্ঠস্বর আমার কাছে পৃথিবীর সবচেয়ে মিষ্টি কোনো ভালোবাসার সুর।" },
+      { title: "আমাদের প্রথম দিন", text: "বিয়ের সেই প্রথম দিনের লজ্জা আর অনুভূতির কথা আজও আমার মনে ঠিক আগের মতোই উজ্জ্বল।" },
+      { title: "তোমার যত্নের পরশ", text: "আমার একটু অসুখে তোমার চোখে যে ব্যাকুলতা ফুটে ওঠে, তা আমাকে অনুভব করায় আমি কত ভাগ্যবান।" },
+      { title: "পূর্ণতা পেয়েছি", text: "তুমি ছাড়া আমার অস্তিত্ব অসম্পূর্ণ, তোমার উপস্থিতিতেই আমার জীবনের সার্থকতা।" },
+      { title: "শ্রদ্ধা ও ভালোবাসা", text: "ভালোবাসার পাশাপাশি তোমার ব্যক্তিত্ব ও আত্মমর্যাদার প্রতি আমার শ্রদ্ধা অপরিসীম।" },
+      { title: "মৃদু ঝগড়া আর মানভঞ্জন", text: "আমাদের মিষ্টি ঝগড়াগুলো আমাদের ভালোবাসাকে বারবার আরও নিবিড় করে তোলে।" },
+      { title: "তোমার সরলতা", text: "তোমার নিষ্পাপ আর সরল মনের আচরণটাই আমাকে তোমার প্রেমে চিরদিনের জন্য বেঁধে রেখেছে।" },
+      { title: "আমাদের ভবিষ্যৎ", text: "সামনের প্রতিটি বছর তোমার সাথে আরও ভালোবাসা ও শান্তিতে কাটানোর স্বপ্ন বুনি প্রতিদিন।" },
+      { title: "তোমার অভিমান", text: "তোমার মিষ্টি অভিমান ভাঙানোর সময় তোমার মুখের মায়াবী ভঙ্গি দেখতে আমার বড্ড ভালো লাগে।" },
+      { title: "হৃদয়ের স্পন্দন", text: "যতবার আমার হৃদয় স্পন্দিত হয়, ততবার মনে করিয়ে দেয় আমার বেঁচে থাকা তোমার জন্য।" },
+      { title: "ভালোবাসার বৃষ্টি", text: "তোমার ভালোবাসা যেন এক চিলতে বৃষ্টির মতো, যা আমার শুষ্ক মনকে স্নিগ্ধতায় ভিজিয়ে দেয়।" },
+      { title: "তুমি আমার নিয়তি", text: "বিধাতা আমার জন্য পৃথিবীর সেরা উপহারটিকে নির্ধারিত করে রেখেছিলেন, আর সে তুমি।" },
+      { title: "জীবনের উপহার", text: "টাকা-পয়সা বা ঐশ্বর্য নয়, তোমার পবিত্র ভালোবাসাটাই আমার জীবনের সবচেয়ে বড় সম্পদ।" },
+      { title: "চিরন্তন বন্ধন", text: "আমাদের এই দাম্পত্য বন্ধন ইহকাল ছাড়িয়ে পরকালেও অমর হয়ে থাকুক, এটাই আমার পরম প্রার্থনা।" },
+      { title: "অনুভূতির কাব্য", text: "তোমাকে নিয়ে লিখতে বসলে পাতার পর পাতা শেষ হবে, কিন্তু আমার ভালোবাসার কথা শেষ হবে না।" },
+      { title: "তোমার ধৈর্য", text: "আমার রাগ আর চঞ্চলতাকে তুমি যেভাবে শান্ত ধৈর্য দিয়ে আগলে রাখো, তা অতুলনীয়।" },
+      { title: "প্রাতঃসূর্যের আলো", text: "প্রতি সকালে ঘুম ভেঙে তোমার মুখখানা দেখাটাই আমার দিনের সেরা মুহূর্ত।" },
+      { title: "আমার অহংকার", text: "আমি গর্ব করে বলতে পারি, আমি এমন এক নারীর জীবনসঙ্গী যার হৃদয় খাঁটি সোনার মতো।" },
+      { title: "তোমার পরামর্শ", text: "জীবনের যে কোনো দ্বিধায় তোমার সুন্দর ও সঠিক পরামর্শ আমাকে সঠিক পথ দেখায়।" },
+      { title: "একান্ত আশ্রয়", text: "বাইরের কোলাহল আর ঝড়-ঝঞ্ঝার পর তোমার কাছে ফেরাটাই আমার একমাত্র প্রশান্তি।" },
+      { title: "ভালোবাসার বর্ষপূর্তি", text: "এই ৩ বছর আমার জীবনের সবচেয়ে সুন্দর বসন্ত, যা বয়ে নিয়ে এসেছে অন্তহীন আনন্দ।" },
+      { title: "আমাদের স্মৃতিকথা", text: "একসাথে হেঁটে চলা প্রতিটি রাস্তা, কাটানো প্রতিটি মুহূর্ত আমার হৃদয়ের ডায়েরিতে জমিয়ে রেখেছি।" },
+      { title: "তোমার স্নিগ্ধ রূপ", text: "তোমার সৌন্দর্যের কোনো তুলনা নেই, কারণ তোমার মনের সৌন্দর্য তোমার রূপকে দ্বিগুণ উজ্জ্বল করেছে।" },
+      { title: "অটুট বিশ্বাস", text: "আমাদের ভালোবাসার সবচেয়ে সুন্দর দিক হলো আমাদের পরস্পরের প্রতি অগাধ ও অটুট বিশ্বাস।" },
+      { title: "তুমি আমার কবিতা", text: "যে কবিতার প্রতিটি ছত্রে কেবল ভালোবাসার গভীরতা আর অনুরাগের ছন্দ ফুটে ওঠে।" },
+      { title: "হাজার বছর বাঁচতে চাই", text: "তোমার সাথে কাটানোর জন্য যদি একশটা জীবনও দেওয়া হতো, তবে প্রতিটা জীবন তোমাকেই চাইতাম।" },
+      { title: "ভালোবাসার পূর্ণতা", text: "তুমি আমার জীবনের সূচনা, আমার বর্তমান এবং আমার সুন্দর ভবিষ্যৎ।" },
+      { title: "তোমার সমর্থন", text: "আমার প্রতিটি পদক্ষেপে তোমার নীরব সমর্থন আমাকে সাহসী ও আত্মবিশ্বাসী করে তুলেছে।" },
+      { title: "বুকের ভেতর তুমি", text: "চোখ বন্ধ করলেই তোমার হাসিমুখ দেখতে পাই, চোখ খুললেই তোমার ভালোবাসা অনুভব করি।" },
+      { title: "শুভ বিবাহবার্ষিকী সাম্মি", text: "আজকের এই বিশেষ দিনে তোমায় আরও একবার বলতে চাই—আমি তোমায় প্রাণ দিয়ে ভালোবাসি।" },
+      { title: "চিরদিনের প্রতিশ্রুতি", text: "যতদিন শরীরে প্রাণ আছে, তোমায় ভালোবেসে যাবো, আগলে রাখবো পরম মমতায়।" },
+      { title: "তুমি এবং আমি", text: "কামরুল ও সাম্মির এই ভালোবাসার গল্প যেন সময়ের সীমানা পেরিয়ে চিরন্তন হয়ে রয়।" }
+    ];
+
+    /* ==========================================================================
+       CORE APPLICATION LOGIC (EXTREMELY FAST & LIGHTWEIGHT)
+       ========================================================================== */
+
+    // 1. Initial State & DOM Elements
+    document.addEventListener("DOMContentLoaded", () => {
+      initAppContent();
+      renderGuests("all");
+      renderBentoPreview();
+      renderFullGallery();
+      renderLoveMessages(loveMessages);
+      renderJourneyTimeline();
+      initPetalsAnimation();
+      setupEventListeners();
+      initCursorGlow();
+    });
+
+    // Populate Easy Edit Variables into UI
+    function initAppContent() {
+      document.title = `${ANNIVERSARY_CONFIG.husbandName.split(" ")[0]} & ${ANNIVERSARY_CONFIG.wifeName.split(" ")[0]} — ${ANNIVERSARY_CONFIG.anniversaryTitle}`;
+      
+      const welcomeNames = document.getElementById("welcome-names");
+      if (welcomeNames) welcomeNames.innerText = `${ANNIVERSARY_CONFIG.husbandName.split(" ")[0]} & ${ANNIVERSARY_CONFIG.wifeName.split(" ")[0]}`;
+
+      const welcomeEvent = document.getElementById("welcome-event");
+      if (welcomeEvent) welcomeEvent.innerText = `Our ${ANNIVERSARY_CONFIG.anniversaryOrdinal} Wedding Anniversary`;
+
+      const navBrand = document.getElementById("nav-brand-text");
+      if (navBrand) navBrand.innerText = `Our ${ANNIVERSARY_CONFIG.anniversaryOrdinal} Anniversary`;
+
+      const heroTitle = document.getElementById("hero-title-text");
+      if (heroTitle) heroTitle.innerText = ANNIVERSARY_CONFIG.anniversaryTitle;
+
+      const heroHusband = document.getElementById("hero-husband");
+      if (heroHusband) heroHusband.innerText = ANNIVERSARY_CONFIG.husbandName;
+
+      const heroWife = document.getElementById("hero-wife");
+      if (heroWife) heroWife.innerText = ANNIVERSARY_CONFIG.wifeName;
+
+      const heroDate = document.getElementById("hero-date");
+      if (heroDate) heroDate.innerText = ANNIVERSARY_CONFIG.eventDate;
+
+      const heroTime = document.getElementById("hero-time");
+      if (heroTime) heroTime.innerText = ANNIVERSARY_CONFIG.eventTime;
+
+      const heroLoc = document.getElementById("hero-location");
+      if (heroLoc) heroLoc.innerText = ANNIVERSARY_CONFIG.eventLocation;
+
+      const locDisplay = document.getElementById("loc-display-address");
+      if (locDisplay) locDisplay.innerText = ANNIVERSARY_CONFIG.eventLocation;
+
+      const heroEvent = document.getElementById("hero-event");
+      if (heroEvent) heroEvent.innerText = ANNIVERSARY_CONFIG.eventProgram;
+
+      const heroImg = document.getElementById("hero-couple-img");
+      if (heroImg) heroImg.src = ANNIVERSARY_CONFIG.coupleMainPhoto;
+
+      const foodImgEl = document.getElementById("bento-food-img-el") || document.querySelector(".bento-food-img");
+      if (foodImgEl && ANNIVERSARY_CONFIG.foodPhoto) {
+        foodImgEl.src = ANNIVERSARY_CONFIG.foodPhoto;
+      }
+
+      // Update Modal default date/time/location
+      document.getElementById("inv-modal-date").innerText = ANNIVERSARY_CONFIG.eventDate;
+      document.getElementById("inv-modal-time").innerText = ANNIVERSARY_CONFIG.eventTime;
+      document.getElementById("inv-modal-program").innerText = ANNIVERSARY_CONFIG.eventProgram;
+      document.getElementById("inv-modal-location").innerText = ANNIVERSARY_CONFIG.eventLocation;
+    }
+
+    // 2. Render Guest Cards
+    function renderGuests(category) {
+      const container = document.getElementById("guest-cards-grid");
+      if (!container) return;
+
+      const filtered = category === "all" ? guests : guests.filter(g => g.category === category);
+      
+      container.innerHTML = filtered.map(guest => `
+        <div class="guest-card" onclick="handleOpenGuestCard('${guest.id}')">
+          <div class="guest-avatar">
+            <svg viewBox="0 0 24 24">
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h4 class="guest-name">${guest.name}</h4>
+          <span class="guest-role-tag">${guest.category}</span>
+          <div class="guest-card-heart">♥</div>
+          <button class="guest-card-btn">View Invitation</button>
+        </div>
+      `).join("");
+    }
+
+    // 3. Guest Card Click Handler (Opening popup animation then luxury modal)
+    window.handleOpenGuestCard = function(guestId) {
+      const guest = guests.find(g => g.id === guestId);
+      if (!guest) return;
+
+      const welcomePopup = document.getElementById("welcome-popup");
+      const popupName = document.getElementById("welcome-popup-name");
+      popupName.innerText = `Welcome ${guest.name}`;
+
+      welcomePopup.classList.add("active");
+
+      // Short burst effect then show modal
+      triggerSparklesBurst();
+
+      setTimeout(() => {
+        welcomePopup.classList.remove("active");
+        showGuestInvitationModal(guest);
+      }, 950);
+    };
+
+    function showGuestInvitationModal(guest) {
+      const modal = document.getElementById("invitation-modal");
+      document.getElementById("inv-modal-guest-name").innerText = `প্রিয় ${guest.name}`;
+      document.getElementById("inv-modal-personal-msg").innerText = guest.message;
+
+      // Tailored note according to category
+      let categoryNote = "আপনার আন্তরিক উপস্থিতি ও দোয়া আমাদের এই বিশেষ দিনটিকে আরও আনন্দময় ও স্মরণীয় করে তুলবে।";
+      if (guest.category === "Office Staff") {
+        categoryNote = "সহকর্মী হিসেবে আপনার উপস্থিতি ও দোয়া আমাদের জন্য পরম সম্মান ও আনন্দ বয়ে আনবে।";
+      } else if (guest.category === "Friends") {
+        categoryNote = "বন্ধু হিসেবে আপনার উপস্থিতি ছাড়া আমাদের এই আনন্দের আয়োজন একেবারেই অপূর্ণ থেকে যাবে!";
+      } else if (guest.category === "Family") {
+        categoryNote = "পারিবারিক মায়া ও আশীর্বাদে আপনার উপস্থিতি আমাদের এই দিনটিকে চিরস্মরণীয় করে তুলবে।";
+      }
+      document.getElementById("inv-modal-category-note").innerText = categoryNote;
+
+      modal.classList.add("active");
+    }
+
+    // 4. Bento Highlights Render
+    function renderBentoPreview() {
+      // Food Menu list
+      const foodContainer = document.getElementById("bento-food-list-container");
+      if (foodContainer) {
+        foodContainer.innerHTML = foodMenu.map(f => `<li>${f}</li>`).join("");
+      }
+
+      // Detailed food grid
+      const fullFoodContainer = document.getElementById("full-menu-grid");
+      if (fullFoodContainer) {
+        fullFoodContainer.innerHTML = foodMenu.map((f, i) => `
+          <div style="background: rgba(45, 10, 19, 0.65); border: 1px solid rgba(212,175,55,0.3); border-radius: 14px; padding: 18px; text-align: center;">
+            <span style="font-size: 1.8rem; display: block; margin-bottom: 8px;">${['🍛', '🍗', '🥩', '🥗', '🍨', '🥤'][i % 6]}</span>
+            <h4 style="font-family: var(--font-display); color: var(--gold); font-size: 1.15rem; margin-bottom: 4px;">${f}</h4>
+            <span style="font-size: 0.82rem; color: var(--text-muted);">বিশেষ রন্ধনশৈলী</span>
+          </div>
+        `).join("");
+      }
+
+      // Gallery 4 Thumbs
+      const thumbsContainer = document.getElementById("bento-gallery-thumbs");
+      if (thumbsContainer) {
+        const previewImgs = galleryImages.slice(0, 4);
+        thumbsContainer.innerHTML = previewImgs.map((img, idx) => `
+          <div class="bento-gallery-item" onclick="openLightbox(${idx})">
+            <img src="${img}" alt="Preview ${idx + 1}" loading="lazy" />
+          </div>
+        `).join("");
+      }
+
+      // Bento Journey
+      const journeyContainer = document.getElementById("bento-journey-timeline");
+      if (journeyContainer) {
+        journeyContainer.innerHTML = journeyTimeline.map(step => `
+          <li class="journey-step">
+            <div class="journey-year">${step.year}</div>
+            <div class="journey-desc">${step.title}</div>
+          </li>
+        `).join("");
+      }
+    }
+
+    // 5. Full Journey Timeline Render
+    function renderJourneyTimeline() {
+      const container = document.getElementById("full-journey-timeline-container");
+      if (!container) return;
+
+      container.innerHTML = `
+        <div style="position: absolute; top: 0; bottom: 0; left: 10px; width: 2px; background: linear-gradient(180deg, var(--gold), var(--rose), var(--gold));"></div>
+        ${journeyTimeline.map(step => `
+          <div style="position: relative; margin-bottom: 30px; padding-left: 20px;">
+            <div style="position: absolute; left: -31px; top: 4px; width: 16px; height: 16px; border-radius: 50%; background: #d4af37; border: 3px solid #1a0409; box-shadow: 0 0 10px #d4af37;"></div>
+            <div style="background: rgba(45, 10, 19, 0.7); border: 1px solid var(--border-gold); border-radius: 14px; padding: 18px 20px;">
+              <span style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: var(--gold);">${step.year}</span>
+              <h4 style="font-family: var(--font-display); font-size: 1.15rem; color: #fff; margin: 4px 0;">${step.title}</h4>
+              <p style="font-size: 0.95rem; color: var(--text-muted);">${step.desc}</p>
+            </div>
+          </div>
+        `).join("")}
+      `;
+    }
+
+    // 6. Full Gallery & Lightbox
+    let currentLightboxIdx = 0;
+
+    function renderFullGallery() {
+      const container = document.getElementById("full-gallery-container");
+      if (!container) return;
+
+      container.innerHTML = galleryImages.map((src, i) => `
+        <div class="gallery-card" onclick="openLightbox(${i})">
+          <img src="${src}" alt="Anniversary Memory ${i + 1}" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍 View Photo</span>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    window.openLightbox = function(index) {
+      currentLightboxIdx = index;
+      const modal = document.getElementById("lightbox-modal");
+      const img = document.getElementById("lightbox-img");
+      img.src = galleryImages[currentLightboxIdx];
+      modal.classList.add("active");
+    };
+
+    function updateLightboxImage() {
+      const img = document.getElementById("lightbox-img");
+      img.src = galleryImages[currentLightboxIdx];
+    }
+
+    // 7. Love Messages Render & Search
+    function renderLoveMessages(list) {
+      const container = document.getElementById("love-messages-grid");
+      if (!container) return;
+
+      container.innerHTML = list.map((msg, idx) => `
+        <div class="love-card" onclick="openLoveModal(${idx})">
+          <span class="love-card-num">#${idx + 1}</span>
+          <div>
+            <div class="love-card-title">
+              <span>❤️</span>
+              <span>${msg.title}</span>
+            </div>
+            <p class="love-card-preview">${msg.text}</p>
+          </div>
+          <div class="love-card-hint">
+            <span>🌹 বিস্তারিত পড়ুন</span>
+          </div>
+        </div>
+      `).join("");
+
+      const counter = document.getElementById("love-counter");
+      if (counter) counter.innerText = `মোট ${list.length}টি বার্তা`;
+    }
+
+    window.openLoveModal = function(index) {
+      const msg = loveMessages[index];
+      if (!msg) return;
+      document.getElementById("love-modal-title").innerText = msg.title;
+      document.getElementById("love-modal-text").innerText = msg.text;
+      document.getElementById("love-modal").classList.add("active");
+    };
+
+    // 8. Event Listeners
+    function setupEventListeners() {
+      // Opening Welcome Button
+      // Guest filter tabs
+      const tabs = document.querySelectorAll(".filter-tab");
+      tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+          tabs.forEach(t => t.classList.remove("active"));
+          tab.classList.add("active");
+          renderGuests(tab.dataset.cat);
+        });
+      });
+
+      // Modals close buttons
+      const invCloseBtn = document.getElementById("modal-close-btn");
+      if (invCloseBtn) {
+        invCloseBtn.addEventListener("click", () => {
+          document.getElementById("invitation-modal").classList.remove("active");
+        });
+      }
+
+      // Close modal on outside click
+      const invModal = document.getElementById("invitation-modal");
+      if (invModal) {
+        invModal.addEventListener("click", (e) => {
+          if (e.target === invModal) invModal.classList.remove("active");
+        });
+      }
+
+      // Lightbox controls
+      const lbModal = document.getElementById("lightbox-modal");
+      const lbClose = document.getElementById("lightbox-close-btn");
+      const lbPrev = document.getElementById("lightbox-prev-btn");
+      const lbNext = document.getElementById("lightbox-next-btn");
+
+      if (lbClose) lbClose.addEventListener("click", () => lbModal.classList.remove("active"));
+      if (lbModal) {
+        lbModal.addEventListener("click", (e) => {
+          if (e.target === lbModal) lbModal.classList.remove("active");
+        });
+      }
+
+      if (lbPrev) {
+        lbPrev.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentLightboxIdx = (currentLightboxIdx - 1 + galleryImages.length) % galleryImages.length;
+          updateLightboxImage();
+        });
+      }
+
+      if (lbNext) {
+        lbNext.addEventListener("click", (e) => {
+          e.stopPropagation();
+          currentLightboxIdx = (currentLightboxIdx + 1) % galleryImages.length;
+          updateLightboxImage();
+        });
+      }
+
+      // Love modal close
+      const loveModal = document.getElementById("love-modal");
+      const loveClose = document.getElementById("love-modal-close-btn");
+      if (loveClose) loveClose.addEventListener("click", () => loveModal.classList.remove("active"));
+      if (loveModal) {
+        loveModal.addEventListener("click", (e) => {
+          if (e.target === loveModal) loveModal.classList.remove("active");
+        });
+      }
+
+      // Love message search filter
+      const loveSearch = document.getElementById("love-search");
+      if (loveSearch) {
+        loveSearch.addEventListener("input", (e) => {
+          const query = e.target.value.toLowerCase().trim();
+          const filtered = loveMessages.filter(m => 
+            m.title.toLowerCase().includes(query) || m.text.toLowerCase().includes(query)
+          );
+          renderLoveMessages(filtered);
+        });
+      }
+
+      // Mobile Menu Toggle
+      const hamburger = document.getElementById("hamburger-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener("click", () => {
+          mobileMenu.classList.toggle("open");
+        });
+      }
+
+      const mobileLinks = document.querySelectorAll(".mobile-nav-link");
+      mobileLinks.forEach(link => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("open");
+        });
+      });
+
+      // Background Melody Synthesizer / Audio Player
+      initRomanticMusic();
+
+      // Opening Welcome Button
+      const openBtn = document.getElementById("open-invitation-btn");
+      if (openBtn) {
+        openBtn.addEventListener("click", () => {
+          triggerPetalsBurst();
+          const welcomeScreen = document.getElementById("welcome-screen");
+          if (welcomeScreen) welcomeScreen.classList.add("hidden");
+          tryAutoStartMusic();
+        });
+      }
+    }
+
+    // 9. Romantic Audio Player (Dual-engine: Audio File + Fallback Harmonic Romantic Synthesizer)
+    let audioCtx = null;
+    let isAudioPlaying = false;
+    let synthTimer = null;
+    let externalAudio = null;
+
+    function initRomanticMusic() {
+      const musicBtn = document.getElementById("music-toggle");
+      if (musicBtn) {
+        musicBtn.addEventListener("click", () => {
+          toggleMusic();
+        });
+      }
+      const mobileMusicBtn = document.getElementById("mobile-music-toggle");
+      if (mobileMusicBtn) {
+        mobileMusicBtn.addEventListener("click", () => {
+          toggleMusic();
+        });
+      }
+    }
+
+    function toggleMusic() {
+      if (isAudioPlaying) {
+        stopAllMusic();
+      } else {
+        startRomanticMusic();
+      }
+    }
+
+    function tryAutoStartMusic() {
+      if (!isAudioPlaying) {
+        startRomanticMusic();
+      }
+    }
+
+    function startRomanticMusic() {
+      const audioUrl = (ANNIVERSARY_CONFIG.musicUrl && ANNIVERSARY_CONFIG.musicUrl.trim() !== "")
+        ? ANNIVERSARY_CONFIG.musicUrl.trim()
+        : "music.mp3";
+      playExternalAudio(audioUrl);
+    }
+
+    function stopAllMusic() {
+      isAudioPlaying = false;
+      if (externalAudio) {
+        externalAudio.pause();
+      }
+      if (synthTimer) {
+        clearInterval(synthTimer);
+        synthTimer = null;
+      }
+      updateMusicUI(false);
+    }
+
+    function playExternalAudio(url) {
+      if (synthTimer) {
+        clearInterval(synthTimer);
+        synthTimer = null;
+      }
+
+      if (!externalAudio) {
+        externalAudio = new Audio();
+        externalAudio.loop = true;
+        externalAudio.volume = 0.6;
+
+        externalAudio.addEventListener("error", () => {
+          console.warn("Audio file could not load from " + externalAudio.src);
+          // Try alternative location if initial was music.mp3
+          if (!externalAudio.src.includes("images/music.mp3") && !externalAudio.src.includes("public/")) {
+            console.log("Retrying with images/music.mp3 fallback...");
+            externalAudio.src = "images/music.mp3";
+            externalAudio.play().catch(() => {
+              if (isAudioPlaying) startRomanticSynth();
+            });
+            return;
+          }
+          if (isAudioPlaying) {
+            startRomanticSynth();
+          }
+        });
+      }
+
+      // If source needs to be set
+      if (!externalAudio.src || (!externalAudio.src.endsWith(url) && externalAudio.src !== url)) {
+        externalAudio.src = url;
+      }
+
+      externalAudio.play().then(() => {
+        isAudioPlaying = true;
+        updateMusicUI(true);
+      }).catch(err => {
+        console.warn("Audio play blocked or needs interaction, switching to synth:", err);
+        startRomanticSynth();
+      });
+    }
+
+    // Soft Harmonic Romantic Chime & Piano Synthesizer
+    function startRomanticSynth() {
+      try {
+        if (!audioCtx) {
+          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+          audioCtx = new AudioContextClass();
+        }
+        if (audioCtx.state === 'suspended') {
+          audioCtx.resume();
+        }
+
+        isAudioPlaying = true;
+        updateMusicUI(true);
+
+        // Romantic progression: Canon in D (D -> A -> Bm -> F#m -> G -> D -> G -> A)
+        const chordProgressions = [
+          [146.83, 220.00, 293.66, 369.99, 440.00], // D major
+          [110.00, 164.81, 220.00, 277.18, 329.63], // A major
+          [123.47, 185.00, 246.94, 293.66, 369.99], // B minor
+          [92.50,  138.59, 185.00, 220.00, 277.18], // F# minor
+          [98.00,  146.83, 196.00, 246.94, 293.66], // G major
+          [146.83, 220.00, 293.66, 369.99, 440.00], // D major
+          [98.00,  146.83, 196.00, 246.94, 392.00], // G major
+          [110.00, 164.81, 220.00, 277.18, 440.00]  // A major
+        ];
+
+        let chordIdx = 0;
+
+        function playRomanticChord(chordNotes) {
+          if (!isAudioPlaying || !audioCtx) return;
+
+          chordNotes.forEach((freq, idx) => {
+            const delay = idx * 0.18; // gentle acoustic arpeggio
+            setTimeout(() => {
+              if (!isAudioPlaying || !audioCtx) return;
+              try {
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+
+                // Gentle sine wave with warm harmonic overtone
+                osc.type = idx === 0 ? "triangle" : "sine";
+                osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+                const now = audioCtx.currentTime;
+                const vol = idx === 0 ? 0.08 : 0.05;
+                gain.gain.setValueAtTime(0.0001, now);
+                gain.gain.exponentialRampToValueAtTime(vol, now + 0.12);
+                gain.gain.exponentialRampToValueAtTime(0.0001, now + 2.8);
+
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+
+                osc.start(now);
+                osc.stop(now + 2.9);
+              } catch (e) {
+                // Ignore audio context stops
+              }
+            }, delay * 1000);
+          });
+        }
+
+        playRomanticChord(chordProgressions[0]);
+        if (synthTimer) clearInterval(synthTimer);
+        synthTimer = setInterval(() => {
+          chordIdx = (chordIdx + 1) % chordProgressions.length;
+          playRomanticChord(chordProgressions[chordIdx]);
+        }, 1900);
+
+      } catch (err) {
+        console.warn("Web Audio not supported or blocked", err);
+      }
+    }
+
+    function updateMusicUI(active) {
+      const musicBtn = document.getElementById("music-toggle");
+      const badge = document.getElementById("music-state-badge");
+      const mobileMusicBtn = document.getElementById("mobile-music-toggle");
+      const mobileBadge = document.getElementById("mobile-music-state-badge");
+
+      if (musicBtn && badge) {
+        if (active) {
+          musicBtn.classList.add("playing");
+          badge.innerText = "ON";
+          badge.style.background = "#ffd5df";
+          badge.style.color = "#8a0c28";
+        } else {
+          musicBtn.classList.remove("playing");
+          badge.innerText = "OFF";
+          badge.style.background = "#d4af37";
+          badge.style.color = "#120307";
+        }
+      }
+
+      if (mobileMusicBtn && mobileBadge) {
+        if (active) {
+          mobileMusicBtn.classList.add("playing");
+          mobileBadge.innerText = "ON";
+          mobileBadge.style.background = "#ffd5df";
+          mobileBadge.style.color = "#8a0c28";
+        } else {
+          mobileMusicBtn.classList.remove("playing");
+          mobileBadge.innerText = "OFF";
+          mobileBadge.style.background = "#d4af37";
+          mobileBadge.style.color = "#120307";
+        }
+      }
+    }
+
+    // Interactive Clipboard Copy for Venue Address
+    window.copyAddressToClipboard = function() {
+      const address = "Uttar Badda, Satarkul Road, Dhaka, Bangladesh";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(address).then(() => {
+          showToast("ঠিকানা ক্লিপবোর্ডে কপি করা হয়েছে! ✨");
+        }).catch(() => {
+          fallbackCopyText(address);
+        });
+      } else {
+        fallbackCopyText(address);
+      }
+    };
+
+    function fallbackCopyText(text) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand("copy");
+        showToast("ঠিকানা ক্লিপবোর্ডে কপি করা হয়েছে! ✨");
+      } catch (e) {
+        showToast("ঠিকানা: উত্তর বাড্ডা, সাঁতারকুল রোড");
+      }
+      document.body.removeChild(ta);
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast-msg");
+      const text = document.getElementById("toast-text");
+      if (!toast) return;
+      if (text) text.innerText = msg;
+      toast.classList.add("show");
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 3200);
+    }
+
+    // Ambient Cursor Aura / Mouse Trail on Desktop
+    function initCursorGlow() {
+      if (window.innerWidth < 768) return;
+      const glow = document.createElement("div");
+      glow.className = "cursor-glow";
+      document.body.appendChild(glow);
+
+      let mouseX = window.innerWidth / 2;
+      let mouseY = window.innerHeight / 2;
+      let glowX = mouseX;
+      let glowY = mouseY;
+
+      window.addEventListener("mousemove", (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      function animateGlow() {
+        glowX += (mouseX - glowX) * 0.14;
+        glowY += (mouseY - glowY) * 0.14;
+        glow.style.transform = `translate3d(${glowX - 120}px, ${glowY - 120}px, 0)`;
+        requestAnimationFrame(animateGlow);
+      }
+      animateGlow();
+    }
+
+    // 10. Ambient Rose Petals & Floating Hearts Animation (Ultra-lightweight Canvas)
+    let canvas, ctx;
+    let particles = [];
+    const PARTICLE_COUNT = 24;
+
+    function initPetalsAnimation() {
+      canvas = document.getElementById("petals-canvas");
+      if (!canvas) return;
+      ctx = canvas.getContext("2d");
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      resize();
+      window.addEventListener("resize", resize);
+
+      for (let i = 0; i < PARTICLE_COUNT; i++) {
+        particles.push(createParticle());
+      }
+
+      function createParticle() {
+        return {
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          size: Math.random() * 8 + 5,
+          speedY: Math.random() * 0.9 + 0.35,
+          speedX: Math.sin(Math.random() * Math.PI) * 0.5 - 0.25,
+          angle: Math.random() * 360,
+          spin: (Math.random() - 0.5) * 1.5,
+          isHeart: Math.random() > 0.65,
+          alpha: Math.random() * 0.4 + 0.3
+        };
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        particles.forEach(p => {
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.angle * Math.PI) / 180);
+          ctx.globalAlpha = p.alpha;
+
+          if (p.isHeart) {
+            // Draw soft romantic heart
+            ctx.fillStyle = "#ff4d79";
+            ctx.beginPath();
+            const s = p.size * 0.7;
+            ctx.moveTo(0, 0);
+            ctx.bezierCurveTo(-s, -s, -s * 1.5, s / 2, 0, s * 1.5);
+            ctx.bezierCurveTo(s * 1.5, s / 2, s, -s, 0, 0);
+            ctx.fill();
+          } else {
+            // Draw golden glowing petal
+            ctx.fillStyle = "#f3d489";
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.size * 0.5, p.size, Math.PI / 4, 0, 2 * Math.PI);
+            ctx.fill();
+          }
+
+          ctx.restore();
+
+          // Movement
+          p.y += p.speedY;
+          p.x += p.speedX;
+          p.angle += p.spin;
+
+          if (p.y > canvas.height + 20) {
+            p.y = -20;
+            p.x = Math.random() * canvas.width;
+          }
+          if (p.x < -20) p.x = canvas.width + 20;
+          if (p.x > canvas.width + 20) p.x = -20;
+        });
+
+        requestAnimationFrame(draw);
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    function triggerPetalsBurst() {
+      if (!particles) return;
+      for (let i = 0; i < 20; i++) {
+        particles.push({
+          x: window.innerWidth / 2 + (Math.random() - 0.5) * 300,
+          y: window.innerHeight / 2 + (Math.random() - 0.5) * 300,
+          size: Math.random() * 12 + 6,
+          speedY: (Math.random() - 0.5) * 4,
+          speedX: (Math.random() - 0.5) * 4,
+          angle: Math.random() * 360,
+          spin: (Math.random() - 0.5) * 4,
+          isHeart: Math.random() > 0.5,
+          alpha: 0.9
+        });
+      }
+    }
+
+    function triggerSparklesBurst() {
+      triggerPetalsBurst();
+    }
+  </script>
+</body>
+</html>
